@@ -1,0 +1,492 @@
+{
+  "main": [
+    "Welcome a WindowsURIpy apps",
+    "[20]: Back",
+    "[11]: Next",
+    "[11]: BACK TO MENU",
+    "Cancel",
+    "[20]: Exit",
+    "Enter an Integer:",
+    "These settings are only available if the Mixed Reality Portal app is installed.",
+    "[30]: Back"
+  ],
+
+  "menu_list":[
+    "[ 0]: System",
+    "[ 1]: Devices",
+    "[ 2]: Phone (build 16251)",
+    "[ 3]: Network & Internet",
+    "[ 4]: Personalization",
+    "[ 5]: Apps",
+    "[ 6]: Accounts",
+    "[ 7]: Time & Language",
+    "[ 8]: Gaming",
+    "[ 9]: Extras",
+    "[10]: Ease of Access",
+    "[11]: Search (version 1903)",
+    "[12]: Privacy",
+    "[13]: Update & Security",
+    "[14]: Mixed reality",
+    "[15]: Surface Hub",
+    "[16]: Shell Commands"
+  ],
+
+  "menu_system":[
+    "[ 0]: Display",
+    "[ 1]: Sound (build 17063) ",
+    "[ 2]: Notifications & actions",
+    "[ 3]: Focus assist (build 17074)",
+    "[ 4]: Power & sleep",
+    "[ 5]: Battery",
+    "[ 6]: Storage",
+    "[ 7]: Tablet",
+    "[ 8]: Multitasking",
+    "[ 9]: Projecting to this PC",
+    "[10]: Shared experiences",
+    "[11]: Clipboard (build 17666)",
+    "[12]: Remote Desktop",
+    "[13]: Device Encryption (if available)",
+    "[14]: About"
+  ],
+
+  "menu_system_display_list":[
+    "[ 0]: Display",
+    "[ 1]: Night light settings",
+    "[ 2]: Advanced scaling settings",
+    "[ 3]: Connect to a wireless display",
+    "[ 4]: Graphics settings"
+  ],
+
+  "menu_system_audio_list":[
+    "[ 0]: Sound (build 17063)",
+    "[ 1]: Manage sound devices",
+    "[ 2]: App volume and device preferences"
+  ],
+
+  "menu_system_focus_list":[
+    "[ 0]: Focus assist (build 17074)",
+    "[ 1]: During these hours",
+    "[ 2]: Duplicating my display (When I'm duplicating my display)",
+    "[ 3]: Playing a game full screen (When I'm playing a game)"
+  ],
+
+  "menu_system_battery_list":[
+    "[ 0]: Battery",
+    "[ 1]: See which apps are affecting your battery life",
+    "[ 2]: Battery Saver settings"
+  ],
+
+  "menu_system_storage_list":[
+    "[ 0]: Storage",
+    "[ 1]: Configure Storage Sense or run it now",
+    "[ 2]: Change where new content is saved"
+  ],
+
+  "devices_list": [
+    "[ 0]: Bluetooth & other devices",
+    "[ 1]: Printers & scanners ",
+    "[ 2]: Mouse",
+    "[ 3]: Touchpad",
+    "[ 4]: Typing",
+    "[ 5]: Wheel (Only available if Dial is paired)",
+    "[ 6]: Pen & Windows Ink",
+    "[ 7]: AutoPlay",
+    "[ 8]: USB"
+  ],
+
+  "devices_menu_typing_list": [
+    "[ 0]: Typing",
+    "[ 1]: Hardware keyboard - Text suggestions"
+  ],
+
+  "phone_list":[
+    "[ 0]: Phone",
+    "[ 1]: Add a phone",
+    "[ 2]: Your Phone (opens app)"
+  ],
+
+  "network_list": [
+    "[ 0]: Status",
+    "[ 1]: Cellular & SIM",
+    "[ 2]: Wi-Fi",
+    "[ 3]: Wi-Fi Calling",
+    "[ 4]: Ethernet",
+    "[ 5]: Dial-up",
+    "[ 6]: DirectAccess (Only available if DirectAccess is enabled)",
+    "[ 7]: VPN",
+    "[ 8]: Airplane mode",
+    "[ 9]: Mobile hotspot",
+    "[10]: NFC",
+    "[11]: Proxy"
+  ],
+
+  "network_menu_status_list": [
+    "[ 0]: Status",
+    "[ 1]: Data usage",
+    "[ 2]: Show available networks"
+  ],
+
+  "network_menu_wifi_list": [
+    "[ 0]: Wi-Fi",
+    "[ 1]: Show available networks",
+    "[ 2]: Manage known networks"
+  ],
+
+  "personalization_list": [
+    "[ 0]: Background",
+    "[ 1]: Color",
+    "[ 2]: Lock screen",
+    "[ 3]: Themes",
+    "[ 4]: Fonts (build 17083)",
+    "[ 5]: Start",
+    "[ 6]: Taskbar"
+  ],
+
+  "personalization_menu_start_list": [
+    "[ 0]: Start",
+    "[ 1]: Choose which folders appear on Start"
+  ],
+
+  "apps_list": [
+    "[ 0]: Apps & features",
+    "[ 1]: Default apps",
+    "[ 2]: Offline maps",
+    "[ 3]: Apps for websites",
+    "[ 4]: Video playback (build 16215)",
+    "[ 5]: Startup (build 17017)"
+  ],
+
+  "apps_menu_apps_list": [
+    "[ 0]: Apps & features",
+    "[ 1]: Manage optional features"
+  ],
+
+  "offline_maps_menu_apps_list": [
+    "[ 0]: Offline maps",
+    "[ 1]: Download maps"
+  ],
+
+  "accounts_list": [
+    "[ 0]: Your info",
+    "[ 1]: Email & accounts",
+    "[ 2]: Sign-in options",
+    "[ 3]: Access work or school",
+    "[ 4]: Family & other users",
+    "[ 5]: Sync your settings"
+  ],
+
+  "accounts_menu_sigin_list": [
+    "[ 0]: Sign-in options",
+    "[ 1]: Windows Hello face setup",
+    "[ 2]: Windows Hello fingerprint setup",
+    "[ 3]: Security Key setup",
+    "[ 4]: Dynamic Lock"
+  ],
+
+  "accounts_menu_family_list": [
+    "[ 0]: Family & other users",
+    "[ 1]: Set up a kiosk"
+  ],
+
+  "time_language_list": [
+    "[ 0]: Date & time",
+    "---- Region ----",
+    "[ 1]: Japan IME settings (available if shoppingmode Microsoft Japan input method editor installed)",
+    "[ 2]: Pinyin IME settings (available if Microsoft Pinyin input method editor installed)",
+    "[ 3]: Wubi IME settings (available if Microsoft Wubi input method editor installed)",
+    "-----------------",
+    "[ 4]: Language",
+    "[ 5]: Speech"
+  ],
+
+  "time_language_menu_language_list": [
+    "[ 0]: Language",
+    "[ 1]: Windows display language",
+    "[ 2]: Add Display language"
+  ],
+
+  "gaming_list": [
+    "[ 0]: Xbox Game bar",
+    "[ 1]: Captures",
+    "[ 2]: Game Mode",
+    "[ 3]: Xbox Networking (build 16226)"
+  ],
+
+  "extras_list": [
+    "[ 0]: Extra",
+    "---------------------------------",
+    "Windows 11 URI Commands for Apps",
+    "---------------------------------",
+    "[ 1]: Available Networks",
+    "[ 2]: Calculator",
+    "[ 3]: Calendar",
+    "[ 4]: Camera",
+    "[ 5]: Cast",
+    "[ 6]: Clock",
+    "[ 7]: Feedback Hub",
+    "[ 8]: Groove Music",
+    "[ 9]: Mail",
+    "[10]: Maps",
+    "[11]: Microsoft Edge",
+    "[12]: Microsoft News",
+    "[13]: Microsoft Solitaire Collection",
+    "[14]: Microsoft Store",
+    "[15]: Movies & TV",
+    "[16]: Notification Center",
+    "[17]: People",
+    "[18]: People settings",
+    "[19]: Photos",
+    "[20]: Project",
+    "[21]: Settings",
+    "[22]: Snipping Tool",
+    "[23]: Snipping Tool - screen snip",
+    "[24]: Tips",
+    "[25]: Weather",
+    "[26]: Windows Security"
+    ],
+  "extras_menu_weather_list": [
+    "[ 0]: Weather BingWeather",
+    "[ 1]: Weather MSNWeather"
+  ],
+
+  "ease_of_access_list": [
+    "[ 0]: Display (build 17025)",
+    "[ 1]: Mouse pointer (build 17040)",
+    "[ 2]: Text cursor",
+    "[ 3]: Magnifier",
+    "[ 4]: Color Filters (build 17025)",
+    "[ 5]: High Contrast",
+    "[ 6]: Narrator",
+    "[ 7]: Audio (build 17035)",
+    "[ 8]: Closed captions",
+    "[ 9]: Speech (build 17035)",
+    "[10]: Keyboard",
+    "[11]: Mouse",
+    "[12]: Eye Control (build 17035)"
+  ],
+  "ease_of_access_menu_narrator_list": [
+    "[ 0]: Narrator",
+    "[ 1]: Start Narrator after sign-in for me"
+  ],
+
+  "search_list": [
+    "[ 0]: Permissions & history",
+    "[ 1]: Searching Windows"
+  ],
+
+  "privacy_list": [
+    "[ 0]: General",
+    "[ 1]: Speech",
+    "[ 2]: Inking & typing personalization",
+    "[ 3]: Diagnostics & feedback",
+    "[ 4]: View diagnostic data",
+    "[ 5]: Location",
+    "[ 6]: Camera",
+    "[ 7]: Microphone",
+    "[ 8]: Voice activation",
+    "[ 9]: Notifications",
+    "[10]: Account info",
+    "[11]: Contacts",
+    "[12]: Calendar",
+    "[13]: Phone calls",
+    "[14]: Call history",
+    "[15]: Email",
+    "[16]: Eye tracker (requires eyetracker hardware)",
+    "[17]: Tasks",
+    "[18]: Messaging",
+    "[19]: Radios",
+    "[20]: Other devices",
+    "[21]: Background apps",
+    "[22]: App diagnostics",
+    "[23]: Automatic file downloads",
+    "[24]: Documents",
+    "[25]: Downloads folder (build 19536)",
+    "[26]: Pictures",
+    "[27]: Videos",
+    "[28]: File system"
+  ],
+
+  "privacy_menu_diagnostics_list": [
+    "[ 0]: Diagnostics & feedback",
+    "[ 1]: View diagnostic data"
+  ],
+
+  "update_list": [
+    "[ 0]: Windows Update",
+    "[ 1]: Delivery Optimization",
+    "[ 2]: Windows Security",
+    "[ 3]: Backup",
+    "[ 4]: Troubleshoot",
+    "[ 5]: Recovery",
+    "[ 6]: Activation",
+    "[ 7]: Find My Device",
+    "[ 8]: For developers",
+    "[ 9]: Windows Insider Program"
+  ],
+  "windows_menu_update_list": [
+    "[ 0]: Windows Update",
+    "[ 1]: Check for updates",
+    "[ 2]: View optional updates",
+    "[ 3]: Change active hours",
+    "[ 4]: View update history",
+    "[ 5]: Restart options",
+    "[ 6]: Advanced options"
+    ],
+
+  "windows_menu_security_list": [
+    "[ 0]: Windows Security",
+    "[ 1]: Open Windows Security"
+    ],
+
+  "mixed_reality_list": [
+    "[ 0]: Audio and speech",
+    "[ 1]: Environment",
+    "[ 2]: Headset display",
+    "[ 3]: Uninstall"
+  ],
+
+  "surface_hub_list": [
+    "[ 0]: Accounts",
+    "[ 1]: Team Conferencing",
+    "[ 2]: Team device management",
+    "[ 3]: Session cleanup",
+    "[ 4]: Welcome screen"
+    ],
+
+  "shell_commads": [
+    "[ 0]: shell:3D Objects",
+    "[ 1]: shell:AccountPictures",
+    "[ 2]: shell:AddNewProgramsFolder",
+    "[ 3]: shell:Administrative Tools",
+    "[ 4]: shell:AppData",
+    "[ 5]: shell:Application Shortcuts",
+    "[ 6]: shell:AppsFolder",
+    "[ 7]: shell:AppUpdatesFolder",
+    "[ 8]: shell:Cache",
+    "[ 9]: shell:Camera Roll",
+    "[10]: shell:CD Burning"
+  ],
+  "shell_commads_1": [
+    "[ 0]: shell:ChangeRemoveProgramsFolder",
+    "[ 1]: shell:Common Administrative Tools",
+    "[ 2]: shell:Common AppData",
+    "[ 3]: shell:Common Desktop",
+    "[ 4]: shell:Common Documents",
+    "[ 5]: shell:CommonDownloads",
+    "[ 6]: shell:CommonMusic",
+    "[ 7]: shell:CommonPictures",
+    "[ 8]: shell:Common Programs",
+    "[ 9]: shell:CommonRingtones",
+    "[10]: shell:Common Start Menu"
+  ],
+  "shell_commads_2": [
+    "[ 0]: shell:Common Startup",
+    "[ 1]: shell:Common Templates",
+    "[ 2]: shell:CommonVideo",
+    "[ 3]: shell:ConflictFolder",
+    "[ 4]: shell:ConnectionsFolder",
+    "[ 5]: shell:Contacts",
+    "[ 6]: shell:ControlPanelFolder",
+    "[ 7]: shell:Cookies",
+    "[ 8]: shell:Cookies\\Low",
+    "[ 9]: shell:CredentialManager",
+    "[10]: shell:CryptoKeys"
+  ],
+  "shell_commads_3": [
+    "[ 0]: shell:desktop",
+    "[ 1]: shell:device Metadata Store",
+    "[ 2]: shell:documentsLibrary",
+    "[ 3]: shell:downloads",
+    "[ 4]: shell:dpapiKeys",
+    "[ 5]: shell:Favorites",
+    "[ 6]: shell:Fonts",
+    "[ 7]: shell:Games (removed in version 1803)",
+    "[ 8]: shell:GameTasks",
+    "[ 9]: shell:History",
+    "[10]: shell:HomeGroupCurrentUserFolder"
+  ],
+  "shell_commads_4": [
+    "[ 0]: shell:HomeGroupFolder",
+    "[ 1]: shell:ImplicitAppShortcuts",
+    "[ 2]: shell:InternetFolder",
+    "[ 3]: shell:Libraries",
+    "[ 4]: shell:Links",
+    "[ 5]: shell:Local AppData",
+    "[ 6]: shell:LocalAppDataLow",
+    "[ 7]: shell:MusicLibrary",
+    "[ 8]: shell:MyComputerFolder",
+    "[ 9]: shell:My Music",
+    "[10]: shell:My Pictures"
+  ],
+  "shell_commads_5": [
+    "[ 0]: shell:My Video",
+    "[ 1]: shell:NetHood",
+    "[ 2]: shell:NetworkPlacesFolder",
+    "[ 3]: shell:OneDrive",
+    "[ 4]: shell:OneDriveCameraRoll",
+    "[ 5]: shell:OneDriveDocuments",
+    "[ 6]: shell:OneDriveMusic",
+    "[ 7]: shell:OneDrivePictures",
+    "[ 8]: shell:Personal",
+    "[ 9]: shell:PicturesLibrary",
+    "[10]: shell:PrintersFolder"
+  ],
+  "shell_commads_6": [
+    "[ 0]: shell:PrintHood",
+    "[ 1]: shell:Profile",
+    "[ 2]: shell:ProgramFiles",
+    "[ 3]: shell:ProgramFilesCommon",
+    "[ 4]: shell:ProgramFilesCommonX64",
+    "[ 5]: shell:ProgramFilesCommonX86",
+    "[ 6]: shell:ProgramFilesX64",
+    "[ 7]: shell:ProgramFilesX86",
+    "[ 8]: shell:Programs",
+    "[ 9]: shell:Public",
+    "[10]: shell:PublicAccountPictures"
+  ],
+  "shell_commads_7": [
+    "[ 0]: shell:PublicGameTasks",
+    "[ 1]: shell:PublicLibraries",
+    "[ 2]: shell:Quick Launch",
+    "[ 3]: shell:Recent",
+    "[ 4]: shell:RecordedTVLibrary",
+    "[ 5]: shell:RecycleBinFolder",
+    "[ 6]: shell:ResourceDir",
+    "[ 7]: shell:Ringtones",
+    "[ 8]: shell:Roamed Tile Images",
+    "[ 9]: shell:Roaming Tiles",
+    "[10]: Run dialog box"
+  ],
+  "shell_commads_8": [
+    "[ 0]: shell:SavedGames",
+    "[ 1]: shell:Screenshots",
+    "[ 2]: shell:Searches",
+    "[ 3]: shell:SearchHistoryFolder",
+    "[ 4]: shell:SearchHomeFolder",
+    "[ 5]: shell:SearchTemplatesFolder",
+    "[ 6]: shell:SendTo",
+    "[ 7]: shell:Start Menu",
+    "[ 8]: shell:StartMenuAllPrograms",
+    "[ 9]: shell:Startup",
+    "[10]: shell:SyncCenterFolder"
+  ],
+  "shell_commads_9": [
+    "[ 0]: shell:SyncResultsFolder",
+    "[ 1]: shell:SyncSetupFolder",
+    "[ 2]: shell:System",
+    "[ 3]: shell:SystemCertificates",
+    "[ 4]: shell:SystemX86",
+    "[ 5]: shell:Templates",
+    "[ 6]: shell:ThisPCDesktopFolder",
+    "[ 7]: shell:UsersFilesFolder",
+    "[ 8]: shell:User Pinned",
+    "[ 9]: shell:UserProfiles",
+    "[10]: shell:UserProgramFiles"
+  ],
+  "shell_commads_10": [
+    "[ 0]: shell:UserProgramFilesCommon",
+    "[ 1]: shell:UsersLibrariesFolder",
+    "[ 2]: shell:VideosLibrary",
+    "[ 3]: shell:Windows"
+  ]
+}
