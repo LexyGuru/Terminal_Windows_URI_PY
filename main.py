@@ -2,6 +2,7 @@ import logo
 import menu_list_def
 import lang
 
+
 """MODUL LIST IMPORT"""
 import modul.Accounts
 import modul.Apps
@@ -21,7 +22,7 @@ import modul.Update_Security
 import modul.Surface_Hub
 import modul.Shell_Command
 
-menu_list_def.clear()
+
 def menulista():
     while True:
         menu_list_def.clear()

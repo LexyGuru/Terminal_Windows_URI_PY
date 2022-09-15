@@ -1,5 +1,8 @@
 # Terminal_Windows_URI_PY
 WinURI Fast Link for Win 10 / 11 (Terminal)
++ Added languade charge
+  + select_lang.py (hun / eng)
++ Fixed color logo
 
 
 **1. System**

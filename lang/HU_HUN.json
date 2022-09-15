@@ -1,14 +1,14 @@
 {
   "main": [
-    "Welcome a WindowsURIpy apps",
-    "[20]: Back",
-    "[11]: Next",
-    "[11]: BACK TO MENU",
+    "Üdv a WindowsURIpy appsban",
+    "[20]: Vissza",
+    "[11]: Következö",
+    "[11]: Vissza a Föoldalra",
     "Cancel",
-    "[20]: Exit",
-    "Enter an Integer:",
+    "[20]: Kilepes",
+    "Adj meg egy szämot:",
     "These settings are only available if the Mixed Reality Portal app is installed.",
-    "[30]: Back"
+    "[30]: Vissza"
   ],
 
   "menu_list":[
