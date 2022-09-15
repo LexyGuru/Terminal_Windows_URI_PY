@@ -1,6 +1,7 @@
 import os
 
 import menu_list_def
+import logo
 import lang
 
 menu_list_def.clear()
@@ -8,6 +9,7 @@ menu_list_def.clear()
 def extra():
     while True:
         menu_list_def.clear()
+        logo.logos.main_logo()
         menu_list_def.extra_list.extra_listA('self')
         menu_list_def.extra_back_text()
         system_lista = int(input("" + lang.language.langs["main"][6]))
@@ -65,6 +67,7 @@ def extra():
         if system_lista == 25:
             while True:
                 menu_list_def.clear()
+                logo.logos.main_logo()
                 menu_list_def.extra_list.menu_weather_list('self')
                 menu_list_def.back_text()
                 weather_lista = int(input("" + lang.language.langs["main"][6]))

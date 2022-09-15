@@ -1,6 +1,7 @@
 import os
 
 import menu_list_def
+import logo
 import lang
 
 menu_list_def.clear()
@@ -8,6 +9,7 @@ menu_list_def.clear()
 def gaming():
     while True:
         menu_list_def.clear()
+        logo.logos.main_logo()
         menu_list_def.gaming_list.gaming_listA('self')
         menu_list_def.back_text()
         system_lista = int(input("" + lang.language.langs["main"][6]))

@@ -1,6 +1,7 @@
 import os
 
 import menu_list_def
+import logo
 import lang
 
 menu_list_def.clear()
@@ -8,6 +9,7 @@ menu_list_def.clear()
 def ease_of_access():
     while True:
         menu_list_def.clear()
+        logo.logos.main_logo()
         menu_list_def.ease_of_access.eace_of_access_listA('self')
         menu_list_def.back_text()
         system_lista = int(input("" + lang.language.langs["main"][6]))
@@ -27,6 +29,7 @@ def ease_of_access():
         if system_lista == 6:
             while True:
                 menu_list_def.clear()
+                logo.logos.main_logo()
                 menu_list_def.ease_of_access.ease_of_access_narrator_list('self')
                 menu_list_def.back_text()
                 ease_lista = int(input("" + lang.language.langs["main"][6]))
