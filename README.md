@@ -4,6 +4,7 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
 + Added languade charge
   + select_lang.py (hun / eng)
 + Fixed color logo
++ fixed logo
 
 
 **1. System**
