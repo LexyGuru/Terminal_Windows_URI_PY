@@ -21,6 +21,7 @@ import modul.Time_Language
 import modul.Update_Security
 import modul.Surface_Hub
 import modul.Shell_Command
+import modul.GoogMod
 
 
 def menulista():
@@ -66,6 +67,8 @@ def menulista():
             modul.Surface_Hub.surface_hub()
         if system_lista == 16:
             modul.Shell_Command.menu()
+        if system_lista == 17:
+            modul.GoogMod.good()
 
         if system_lista == 20:
             exit()
