@@ -4,7 +4,7 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
 + Added languade charge
   + select_lang.py (hun / eng)
 + Fixed color logo
-+ fixed logo
++ Added GoodMod in desktop
 
 
 **1. System**
@@ -214,127 +214,131 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
 
 **17. Shell Commands**
 
-    5. [x] shell:3D Objects
-    5. [x] shell:AccountPictures
-    5. [x] shell:AddNewProgramsFolder
-    5. [x] shell:Administrative Tools
+    1. [x] shell:3D Objects
+    2. [x] shell:AccountPictures
+    3. [x] shell:AddNewProgramsFolder
+    4. [x] shell:Administrative Tools
     5. [x] shell:AppData
-    5. [x] shell:Application Shortcuts
-    5. [x] shell:AppsFolder
-    5. [x] shell:AppUpdatesFolder
-    5. [x] shell:Cache
-    5. [x] shell:Camera Roll
-    5. [x] shell:CD Burning
+    6. [x] shell:Application Shortcuts
+    7. [x] shell:AppsFolder
+    8. [x] shell:AppUpdatesFolder
+    9. [x] shell:Cache
+    10. [x] shell:Camera Roll
+    11. [x] shell:CD Burning
 
-    5. [x] shell:ChangeRemoveProgramsFolder
-    5. [x] shell:Common Administrative Tools
-    5. [x] shell:Common AppData
-    5. [x] shell:Common Desktop
-    5. [x] shell:Common Documents
-    5. [x] shell:CommonDownloads
-    5. [x] shell:CommonMusic
-    5. [x] shell:CommonPictures
-    5. [x] shell:Common Programs
-    5. [x] shell:CommonRingtones
-    5. [x] shell:Common Start Menu
+    12. [x] shell:ChangeRemoveProgramsFolder
+    13. [x] shell:Common Administrative Tools
+    14. [x] shell:Common AppData
+    15. [x] shell:Common Desktop
+    16. [x] shell:Common Documents
+    17. [x] shell:CommonDownloads
+    18. [x] shell:CommonMusic
+    19. [x] shell:CommonPictures
+    20. [x] shell:Common Programs
+    21. [x] shell:CommonRingtones
+    22. [x] shell:Common Start Menu
 
-    5. [x] shell:Common Startup
-    5. [x] shell:Common Templates
-    5. [x] shell:CommonVideo
-    5. [x] shell:ConflictFolder
-    5. [x] shell:ConnectionsFolder
-    5. [x] shell:Contacts
-    5. [x] shell:ControlPanelFolder
-    5. [x] shell:Cookies
-    5. [x] shell:Cookies\Low
-    5. [x] shell:CredentialManager
-    5. [x] shell:CryptoKeys
+    23. [x] shell:Common Startup
+    24. [x] shell:Common Templates
+    25. [x] shell:CommonVideo
+    26. [x] shell:ConflictFolder
+    27. [x] shell:ConnectionsFolder
+    28. [x] shell:Contacts
+    29. [x] shell:ControlPanelFolder
+    30. [x] shell:Cookies
+    31. [x] shell:Cookies\Low
+    32. [x] shell:CredentialManager
+    33. [x] shell:CryptoKeys
 
-    5. [x] shell:desktop
-    5. [x] shell:device Metadata Store
-    5. [x] shell:documentsLibrary
-    5. [x] shell:downloads
-    5. [x] shell:dpapiKeys
-    5. [x] shell:Favorites
-    5. [x] shell:Fonts
-    5. [x] shell:Games (removed in version 1803)
-    5. [x] shell:GameTasks
-    5. [x] shell:History
-    5. [x] shell:HomeGroupCurrentUserFolder
+    34. [x] shell:desktop
+    35. [x] shell:device Metadata Store
+    36. [x] shell:documentsLibrary
+    37. [x] shell:downloads
+    38. [x] shell:dpapiKeys
+    39. [x] shell:Favorites
+    40. [x] shell:Fonts
+    41. [x] shell:Games (removed in version 1803)
+    42. [x] shell:GameTasks
+    43. [x] shell:History
+    44. [x] shell:HomeGroupCurrentUserFolder
 
-    5. [x] shell:HomeGroupFolder
-    5. [x] shell:ImplicitAppShortcuts
-    5. [x] shell:InternetFolder
-    5. [x] shell:Libraries
-    5. [x] shell:Links
-    5. [x] shell:Local AppData
-    5. [x] shell:LocalAppDataLow
-    5. [x] shell:MusicLibrary
-    5. [x] shell:MyComputerFolder
-    5. [x] shell:My Music
-    5. [x] shell:My Pictures
+    45. [x] shell:HomeGroupFolder
+    46. [x] shell:ImplicitAppShortcuts
+    47. [x] shell:InternetFolder
+    48. [x] shell:Libraries
+    49. [x] shell:Links
+    50. [x] shell:Local AppData
+    51. [x] shell:LocalAppDataLow
+    52. [x] shell:MusicLibrary
+    53. [x] shell:MyComputerFolder
+    54. [x] shell:My Music
+    55. [x] shell:My Pictures
 
-    5. [x] shell:My Video
-    5. [x] shell:NetHood
-    5. [x] shell:NetworkPlacesFolder
-    5. [x] shell:OneDrive
-    5. [x] shell:OneDriveCameraRoll
-    5. [x] shell:OneDriveDocuments
-    5. [x] shell:OneDriveMusic
-    5. [x] shell:OneDrivePictures
-    5. [x] shell:Personal
-    5. [x] shell:PicturesLibrary
-    5. [x] shell:PrintersFolder
+    56. [x] shell:My Video
+    57. [x] shell:NetHood
+    58. [x] shell:NetworkPlacesFolder
+    59. [x] shell:OneDrive
+    60. [x] shell:OneDriveCameraRoll
+    61. [x] shell:OneDriveDocuments
+    62. [x] shell:OneDriveMusic
+    63. [x] shell:OneDrivePictures
+    64. [x] shell:Personal
+    65. [x] shell:PicturesLibrary
+    66. [x] shell:PrintersFolder
 
-    5. [x] shell:PrintHood
-    5. [x] shell:Profile
-    5. [x] shell:ProgramFiles
-    5. [x] shell:ProgramFilesCommon
-    5. [x] shell:ProgramFilesCommonX64
-    5. [x] shell:ProgramFilesCommonX86
-    5. [x] shell:ProgramFilesX64
-    5. [x] shell:ProgramFilesX86
-    5. [x] shell:Programs
-    5. [x] shell:Public
-    5. [x] shell:PublicAccountPictures
+    67. [x] shell:PrintHood
+    68. [x] shell:Profile
+    69. [x] shell:ProgramFiles
+    70. [x] shell:ProgramFilesCommon
+    71. [x] shell:ProgramFilesCommonX64
+    72. [x] shell:ProgramFilesCommonX86
+    73. [x] shell:ProgramFilesX64
+    74. [x] shell:ProgramFilesX86
+    75. [x] shell:Programs
+    76. [x] shell:Public
+    77. [x] shell:PublicAccountPictures
 
-    5. [x] shell:PublicGameTasks
-    5. [x] shell:PublicLibraries
-    5. [x] shell:Quick Launch
-    5. [x] shell:Recent
-    5. [x] shell:RecordedTVLibrary
-    5. [x] shell:RecycleBinFolder
-    5. [x] shell:ResourceDir
-    5. [x] shell:Ringtones
-    5. [x] shell:Roamed Tile Images
-    5. [x] shell:Roaming Tiles
-    5. [x] Run dialog box
+    78. [x] shell:PublicGameTasks
+    79. [x] shell:PublicLibraries
+    80. [x] shell:Quick Launch
+    81. [x] shell:Recent
+    82. [x] shell:RecordedTVLibrary
+    83. [x] shell:RecycleBinFolder
+    84. [x] shell:ResourceDir
+    85. [x] shell:Ringtones
+    86. [x] shell:Roamed Tile Images
+    87. [x] shell:Roaming Tiles
+    88. [x] Run dialog box
 
-    5. [x] shell:SavedGames
-    5. [x] shell:Screenshots
-    5. [x] shell:Searches
-    5. [x] shell:SearchHistoryFolder
-    5. [x] shell:SearchHomeFolder
-    5. [x] shell:SearchTemplatesFolder
-    5. [x] shell:SendTo
-    5. [x] shell:Start Menu
-    5. [x] shell:StartMenuAllPrograms
-    5. [x] shell:Startup
-    5. [x] shell:SyncCenterFolder
+    89. [x] shell:SavedGames
+    90. [x] shell:Screenshots
+    91. [x] shell:Searches
+    92. [x] shell:SearchHistoryFolder
+    93. [x] shell:SearchHomeFolder
+    94. [x] shell:SearchTemplatesFolder
+    95. [x] shell:SendTo
+    96. [x] shell:Start Menu
+    97. [x] shell:StartMenuAllPrograms
+    98. [x] shell:Startup
+    99. [x] shell:SyncCenterFolder
 
-    5. [x] shell:SyncResultsFolder
-    5. [x] shell:SyncSetupFolder
-    5. [x] shell:System
-    5. [x] shell:SystemCertificates
-    5. [x] shell:SystemX86
-    5. [x] shell:Templates
-    5. [x] shell:ThisPCDesktopFolder
-    5. [x] shell:UsersFilesFolder
-    5. [x] shell:User Pinned
-    5. [x] shell:UserProfiles
-    5. [x] shell:UserProgramFiles
+    100. [x] shell:SyncResultsFolder
+    101. [x] shell:SyncSetupFolder
+    102. [x] shell:System
+    103. [x] shell:SystemCertificates
+    104. [x] shell:SystemX86
+    105. [x] shell:Templates
+    106. [x] shell:ThisPCDesktopFolder
+    107. [x] shell:UsersFilesFolder
+    108. [x] shell:User Pinned
+    109. [x] shell:UserProfiles
+    110. [x] shell:UserProgramFiles
 
-    5. [x] shell:UserProgramFilesCommon
-    5. [x] shell:UsersLibrariesFolder
-    5. [x] shell:VideosLibrary
-    5. [x] shell:Windows
+    111. [x] shell:UserProgramFilesCommon
+    112. [x] shell:UsersLibrariesFolder
+    113. [x] shell:VideosLibrary
+    114. [x] shell:Windows
+
+**GoodMod**
+
+    1. [x] GoodMod
