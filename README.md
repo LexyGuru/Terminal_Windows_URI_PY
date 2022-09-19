@@ -343,3 +343,10 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
 **GoodMod**
 
     1. [x] GoodMod
+    2. [x] Power Profile"
+  
+    Power Profile
+
+      1. [x] Ultimate Power Profil Added",
+      2. [x] Profil Activated",
+      3. [x] Power list"
