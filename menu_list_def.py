@@ -362,3 +362,17 @@ class shell:
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
+
+class goodm:
+
+    def goodmod_listA(self):
+        lista = lang.language.langs['goodmod']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+    def power_listA(self):
+        lista = lang.language.langs['power_goodmod']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])

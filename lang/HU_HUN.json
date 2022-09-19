@@ -8,7 +8,8 @@
     "[20]: Kilepes",
     "Adj meg egy szämot:",
     "These settings are only available if the Mixed Reality Portal app is installed.",
-    "[30]: Vissza"
+    "[30]: Vissza",
+    "Added GUID ID:"
   ],
 
   "menu_list":[
@@ -489,5 +490,15 @@
     "[ 1]: shell:UsersLibrariesFolder",
     "[ 2]: shell:VideosLibrary",
     "[ 3]: shell:Windows"
+  ],
+
+  "goodmod": [
+    "[ 0]: GoodMod",
+    "[ 1]: Power Profile"
+  ],
+  "power_goodmod": [
+    "[ 0]: Ultimate Power Profil Added",
+    "[ 1]: Profil Activated",
+    "[ 2]: Power list"
   ]
 }

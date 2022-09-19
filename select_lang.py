@@ -5,9 +5,7 @@ import os
 import logo
 import json
 
-
 logo.logos.main_logo()
-
 
 def language():
 
