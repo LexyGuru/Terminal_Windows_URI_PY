@@ -5,8 +5,11 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
   + select_lang.py (hun / eng)
 + Fixed color logo
 + Added GoodMod in desktop
+
 + Added Ultimate Profile
   + Charge Power profile 
+
++ Fixed Power List 
 
 **1. System**
 

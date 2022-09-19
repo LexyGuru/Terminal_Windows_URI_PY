@@ -1,6 +1,5 @@
 import os
 import subprocess
-import codecs
 import lang
 import logo
 import menu_list_def
@@ -39,19 +38,21 @@ def good():
                     os.system("start powercfg.cpl")
 
                 if system_lista == 2:
-                        menu_list_def.clear()
-                        logo.logos.main_logo()
-                        menu_list_def.back_text()
+                    menu_list_def.clear()
+                    logo.logos.main_logo()
+                    print(lang.language.langs["manual_power"][0])
+                    print(lang.language.langs["manual_power"][1])
+                    menu_list_def.back_text()
 
-                        jdoe = os.system("cmd.exe /c chcp 65001 > nul & powercfg /list")
-                        print(jdoe)
+                    jdoe = os.system("cmd.exe /c chcp 65001 > nul & powercfg /list")
+                    print(jdoe)
 
-                        system_lista = input("" + lang.language.langs["main"][9])
+                    system_lista = input("" + lang.language.langs["main"][9])
 
-                        os.system("powercfg /setactive " + system_lista)
+                    os.system("powercfg /setactive " + system_lista)
 
-                if system_lista == 20:
-                    break
+                    if system_lista == 20:
+                        break
 
 
         if system_lista == 20:

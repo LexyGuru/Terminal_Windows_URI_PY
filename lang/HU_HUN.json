@@ -500,5 +500,10 @@
     "[ 0]: Ultimate Power Profil Added",
     "[ 1]: Profil Activated",
     "[ 2]: Power list"
+  ],
+
+  "manual_power": [
+    "Manual power settings",
+    "Add GUID and activate Power profile"
   ]
 }
