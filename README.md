@@ -356,10 +356,20 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
 **GoodMod**
 
     1. [x] GoodMod
-    2. [x] Power Profile"
+    2. [x] Power Profile
   
     Power Profile
 
-      1. [x] Ultimate Power Profil Added",
-      2. [x] Profil Activated",
-      3. [x] Power list"
+      1. [x] Ultimate Power Profil Added
+      2. [x] Profil Activated
+      3. [x] Power list
+
+    3. [x] Microsoft_Store (Min ver 21H1)
+     
+      1. [x] Show all list
+      2. [x] Installed Apps
+      3. [x] Upgrade Apps
+      4. [x] Import List (C:/TEMP/IMPORT.json)
+      5. [x] Export List (C:/TEMP/EXPORT.json)
+      6. [x] Install Apps
+      7. [x] Uninstall Apps
