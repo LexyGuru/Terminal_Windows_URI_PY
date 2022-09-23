@@ -6,8 +6,12 @@ import menu_list_def
 
 menu_list_def.clear()
 
-start = "winscript/godm.ps1"
-pwop = "winscript/pwop.ps1"
+ROOT_DIR = os.path.abspath(os.curdir)
+
+start = ROOT_DIR + "winscript/godm.ps1"
+C_DIR_IN = "C:/TEMP/IMPORT.json"
+C_DIR_EX = "C:/TEMP/EXPORT.json"
+
 
 def good():
     while True:
@@ -54,6 +58,42 @@ def good():
                     if system_lista == 20:
                         break
 
+        if system_lista == 2:
+            while True:
+                menu_list_def.clear()
+                logo.logos.main_logo()
+                menu_list_def.goodm.microsoft_listA('self')
+                menu_list_def.back_text()
+                system_lista = int(input("" + lang.language.langs["main"][6]))
+
+                if system_lista == 0:
+                    os.system('winget search --query ""')
+
+                if system_lista == 1:
+                    os.system("winget list")
+
+                if system_lista == 2:
+                    os.system("winget upgrade --all")
+
+                if system_lista == 3:
+                    os.system("winget import " + C_DIR_IN)
+
+                if system_lista == 4:
+                    os.system("winget export " + C_DIR_EX)
+
+                if system_lista == 5:
+                    os.system('winget search --query ""')
+                    system_lista = input("" + lang.language.langs["main"][9])
+                    os.system("winget install " + system_lista)
+
+
+                if system_lista == 6:
+                    os.system("winget list")
+                    system_lista = input("" + lang.language.langs["main"][9])
+                    os.system("winget uninstall " + system_lista)
+
+                if system_lista == 20:
+                    break
 
         if system_lista == 20:
             break

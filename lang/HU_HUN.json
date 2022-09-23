@@ -494,8 +494,10 @@
 
   "goodmod": [
     "[ 0]: GoodMod",
-    "[ 1]: Power Profile"
+    "[ 1]: Power Profile",
+    "[ 2]: Windows Apps (BETA)"
   ],
+
   "power_goodmod": [
     "[ 0]: Ultimate Power Profil Added",
     "[ 1]: Profil Activated",
@@ -505,5 +507,20 @@
   "manual_power": [
     "Manual power settings",
     "Add GUID and activate Power profile"
+  ],
+
+  "Microsoft_Store":[
+    "Full Installed Apps (Min ver 21H1)",
+    "------------------------------------------------------------------------",
+    "Show all",
+    "To show all of the winget packages available, use the command",
+    "[ 0]: Show all list",
+    "------------------------------------------------------------------------",
+    "[ 1]: Installed Apps",
+    "[ 2]: Upgrade Apps",
+    "[ 3]: Import List (C:/TEMP/IMPORT.json)",
+    "[ 4]: Export List (C:/TEMP/EXPORT.json)",
+    "[ 5]: Install Apps",
+    "[ 6]: Uninstall Apps"
   ]
 }

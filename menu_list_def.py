@@ -376,3 +376,9 @@ class goodm:
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
+
+    def microsoft_listA(self):
+        lista = lang.language.langs['Microsoft_Store']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])

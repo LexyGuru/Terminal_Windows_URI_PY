@@ -11,6 +11,16 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
 
 + Fixed Power List 
 
++ Microsoft_Store (Min ver 21H1)
+  + Show all list
+  + Installed Apps
+  + Upgrade Apps
+  + Import List (C:/TEMP/IMPORT.json)
+  + Export List (C:/TEMP/EXPORT.json)
+  + Install Apps
+  + Uninstall Apps
+
+
 **1. System**
 
     1. [x] Display
