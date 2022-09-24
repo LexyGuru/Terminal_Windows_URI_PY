@@ -9,13 +9,14 @@ menu_list_def.clear()
 
 ROOT_DIR = os.path.abspath(os.curdir)
 
-start = ROOT_DIR + "winscript/godm.ps1"
+start = ROOT_DIR + "\winscript\godm.ps1"
 ms_list = ROOT_DIR + "\winscript\ms_list.ps1"
 
 win_install = ROOT_DIR + "\winscript\win_inst_list.ps1"
 win_search = ROOT_DIR + "\winscript\win_sear_que_inst.ps1"
 win_upgrade = ROOT_DIR + "\winscript\win_upg_all.ps1"
 
+power_set = ROOT_DIR + "\winscript\power_set.cmd"
 
 C_DIR_IN = "C:/TEMP/IMPORT.json"
 C_DIR_EX = "C:/TEMP/EXPORT.json"
@@ -35,6 +36,8 @@ def good():
                                     stderr=subprocess.STDOUT, shell=True)
             print(result)
 
+
+
         if system_lista == 1:
             while True:
                 menu_list_def.clear()
@@ -52,19 +55,18 @@ def good():
                 if system_lista == 2:
                     menu_list_def.clear()
                     logo.logos.main_logo()
-                    print(lang.language.langs["manual_power"][0])
-                    print(lang.language.langs["manual_power"][1])
+                    menu_list_def.goodm.power_menu_listA('self')
                     menu_list_def.back_text()
 
-                    jdoe = os.system("cmd.exe /c chcp 65001 > nul & powercfg /list")
-                    print(jdoe)
-
+                    Popen('' + power_set, creationflags=CREATE_NEW_CONSOLE)
                     system_lista = input("" + lang.language.langs["main"][9])
-
                     os.system("powercfg /setactive " + system_lista)
 
                     if system_lista == 20:
                         break
+
+                if system_lista == 20:
+                    break
 
         if system_lista == 2:
             while True:

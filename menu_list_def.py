@@ -377,6 +377,12 @@ class goodm:
         for i in range(0, len(lista)):
             print(lista[i])
 
+    def power_menu_listA(self):
+        lista = lang.language.langs['manual_power']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
     def microsoft_listA(self):
         lista = lang.language.langs['Microsoft_Store']
         i = 0
