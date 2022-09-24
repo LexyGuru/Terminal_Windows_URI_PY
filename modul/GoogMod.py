@@ -1,5 +1,6 @@
 import os
 import subprocess
+from subprocess import Popen, CREATE_NEW_CONSOLE
 import lang
 import logo
 import menu_list_def
@@ -9,6 +10,13 @@ menu_list_def.clear()
 ROOT_DIR = os.path.abspath(os.curdir)
 
 start = ROOT_DIR + "winscript/godm.ps1"
+ms_list = ROOT_DIR + "\winscript\ms_list.ps1"
+
+win_install = ROOT_DIR + "\winscript\win_inst_list.ps1"
+win_search = ROOT_DIR + "\winscript\win_sear_que_inst.ps1"
+win_upgrade = ROOT_DIR + "\winscript\win_upg_all.ps1"
+
+
 C_DIR_IN = "C:/TEMP/IMPORT.json"
 C_DIR_EX = "C:/TEMP/EXPORT.json"
 
@@ -67,13 +75,13 @@ def good():
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 
                 if system_lista == 0:
-                    os.system('winget search --query ""')
+                    Popen('powershell ' + ms_list, creationflags=CREATE_NEW_CONSOLE)
 
                 if system_lista == 1:
-                    os.system("winget list")
+                    Popen('powershell ' + win_install, creationflags=CREATE_NEW_CONSOLE)
 
                 if system_lista == 2:
-                    os.system("winget upgrade --all")
+                    Popen('powershell ' + win_upgrade, creationflags=CREATE_NEW_CONSOLE)
 
                 if system_lista == 3:
                     os.system("winget import " + C_DIR_IN)
@@ -82,13 +90,13 @@ def good():
                     os.system("winget export " + C_DIR_EX)
 
                 if system_lista == 5:
-                    os.system('winget search --query ""')
+
+                    Popen('powershell ' + win_search, creationflags=CREATE_NEW_CONSOLE)
                     system_lista = input("" + lang.language.langs["main"][9])
                     os.system("winget install " + system_lista)
 
-
                 if system_lista == 6:
-                    os.system("winget list")
+                    Popen('powershell ' + win_install, creationflags=CREATE_NEW_CONSOLE)
                     system_lista = input("" + lang.language.langs["main"][9])
                     os.system("winget uninstall " + system_lista)
 

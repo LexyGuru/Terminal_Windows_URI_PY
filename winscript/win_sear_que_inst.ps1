@@ -1,0 +1,2 @@
+winget search --query `"`"
+pause

@@ -1,0 +1,2 @@
+winget list
+pause
