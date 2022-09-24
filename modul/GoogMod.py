@@ -16,7 +16,7 @@ win_install = ROOT_DIR + "\winscript\win_inst_list.ps1"
 win_search = ROOT_DIR + "\winscript\win_sear_que_inst.ps1"
 win_upgrade = ROOT_DIR + "\winscript\win_upg_all.ps1"
 
-power_set = ROOT_DIR + "\winscript\power_set.cmd"
+power_set = ROOT_DIR + "\winscript\power_set.ps1"
 
 C_DIR_IN = "C:/TEMP/IMPORT.json"
 C_DIR_EX = "C:/TEMP/EXPORT.json"
@@ -58,7 +58,7 @@ def good():
                     menu_list_def.goodm.power_menu_listA('self')
                     menu_list_def.back_text()
 
-                    Popen('' + power_set, creationflags=CREATE_NEW_CONSOLE)
+                    Popen('powershell ' + power_set, creationflags=CREATE_NEW_CONSOLE)
                     system_lista = input("" + lang.language.langs["main"][9])
                     os.system("powercfg /setactive " + system_lista)
 
