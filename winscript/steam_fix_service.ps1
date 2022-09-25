@@ -1,0 +1,1 @@
+cmd.exe /c "C:\Program Files (x86)\Steam\bin\SteamService.exe" /repair

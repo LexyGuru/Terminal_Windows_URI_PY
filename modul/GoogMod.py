@@ -1,6 +1,7 @@
 import os
 import subprocess
 from subprocess import Popen, CREATE_NEW_CONSOLE
+import runcmd
 import lang
 import logo
 import menu_list_def
@@ -11,15 +12,22 @@ ROOT_DIR = os.path.abspath(os.curdir)
 
 start = ROOT_DIR + "\winscript\godm.ps1"
 ms_list = ROOT_DIR + "\winscript\ms_list.ps1"
-
 win_install = ROOT_DIR + "\winscript\win_inst_list.ps1"
 win_search = ROOT_DIR + "\winscript\win_sear_que_inst.ps1"
 win_upgrade = ROOT_DIR + "\winscript\win_upg_all.ps1"
-
 power_set = ROOT_DIR + "\winscript\power_set.ps1"
+
+update_powershell = ROOT_DIR + "\winscript\windows_runas_update.ps1"
+update_powershell_fixer = ROOT_DIR + "\winscript\windows_runas_update_fixer.ps1"
+
+steam_fix = ROOT_DIR + "\winscript\steam_fix_service.ps1"
 
 C_DIR_IN = "C:/TEMP/IMPORT.json"
 C_DIR_EX = "C:/TEMP/EXPORT.json"
+
+w_scan_updates = "Update-MpSignature"
+w_scan_Quick = "Start-MpScan -ScanType QuickScan"
+w_scan_Full = "Start-MpScan -ScanType FullScan"
 
 
 def good():
@@ -101,6 +109,49 @@ def good():
                     Popen('powershell ' + win_install, creationflags=CREATE_NEW_CONSOLE)
                     system_lista = input("" + lang.language.langs["main"][9])
                     os.system("winget uninstall " + system_lista)
+
+                if system_lista == 20:
+                    break
+
+        if system_lista == 3:
+            while True:
+                menu_list_def.clear()
+                logo.logos.main_logo()
+                menu_list_def.goodm.Update_Fixer('self')
+                menu_list_def.back_text()
+                system_lista = int(input("" + lang.language.langs["main"][6]))
+
+                if system_lista == 0:
+                    Popen('powershell ' + update_powershell, creationflags=CREATE_NEW_CONSOLE)
+
+                if system_lista == 1:
+                    Popen('powershell ' + update_powershell_fixer, creationflags=CREATE_NEW_CONSOLE)
+
+                if system_lista == 2:
+                    Popen('powershell ' + steam_fix, creationflags=CREATE_NEW_CONSOLE)
+
+                if system_lista == 20:
+                    break
+
+        if system_lista == 4:
+            while True:
+                menu_list_def.clear()
+                logo.logos.main_logo()
+                menu_list_def.goodm.Windows_Defender('self')
+                menu_list_def.back_text()
+                system_lista = int(input("" + lang.language.langs["main"][6]))
+
+                if system_lista == 0:
+                    Popen('powershell ' + w_scan_updates, creationflags=CREATE_NEW_CONSOLE)
+                    pass
+
+                if system_lista == 1:
+                    Popen('powershell ' + w_scan_Quick, creationflags=CREATE_NEW_CONSOLE)
+                    pass
+
+                if system_lista == 2:
+                    Popen('powershell ' + w_scan_Full, creationflags=CREATE_NEW_CONSOLE)
+                    pass
 
                 if system_lista == 20:
                     break

@@ -388,3 +388,15 @@ class goodm:
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
+
+    def Update_Fixer(self):
+        lista = lang.language.langs['Update_Fixer']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+    def Windows_Defender(self):
+        lista = lang.language.langs['Windows_Defender']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])

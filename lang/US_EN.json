@@ -495,7 +495,9 @@
   "goodmod": [
     "[ 0]: GoodMod",
     "[ 1]: Power Profile",
-    "[ 2]: Windows Apps (BETA)"
+    "[ 2]: Windows Apps (BETA)",
+    "[ 3]: Update and Fixer (!!!!!!!)",
+    "[ 4]: Windows Defender"
   ],
 
   "power_goodmod": [
@@ -522,6 +524,19 @@
     "[ 4]: Export List (C:/TEMP/EXPORT.json)",
     "[ 5]: Install Apps",
     "[ 6]: Uninstall Apps"
+  ],
+
+  "Update_Fixer": [
+    " FIXED LIBERITY",
+    "[ 0]: Windows Powershell Update",
+    "[ 1]: Windows update Fixer",
+    "[ 2]: Steam Service Fixed"
+  ],
+
+  "Windows_Defender": [
+    "[ 0] Microsoft Defender updates",
+    "[ 1] Quick Virus Scan",
+    "[ 2] Full Virus Scan"
   ]
 
 
