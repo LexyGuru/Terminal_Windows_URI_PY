@@ -373,3 +373,13 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
       5. [x] Export List (C:/TEMP/EXPORT.json)
       6. [x] Install Apps
       7. [x] Uninstall Apps
+    
+    4. [x] Update Fixer
+      1. [x] Windows Powershell Update
+      2. [x] Windows Update Fixer
+      3. [x] Steam Service Fixed
+
+    5. [x] Windows Defender
+      1. [x] Defender Updater
+      2. [x] Quick Scan
+      3. [x] Full Scan
