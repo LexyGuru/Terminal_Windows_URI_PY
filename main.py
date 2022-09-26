@@ -23,6 +23,9 @@ import modul.Surface_Hub
 import modul.Shell_Command
 import modul.GoogMod
 
+''' // BETA PROJECT //'''
+import modul.my_script
+
 
 def menulista():
     while True:
@@ -69,6 +72,9 @@ def menulista():
             modul.Shell_Command.menu()
         if system_lista == 17:
             modul.GoogMod.good()
+
+        if system_lista == 99:
+            modul.my_script.beta_my_script()
 
         if system_lista == 20:
             exit()

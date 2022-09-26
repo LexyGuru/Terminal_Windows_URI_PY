@@ -1,7 +1,6 @@
 import os
 import subprocess
 from subprocess import Popen, CREATE_NEW_CONSOLE
-import runcmd
 import lang
 import logo
 import menu_list_def
