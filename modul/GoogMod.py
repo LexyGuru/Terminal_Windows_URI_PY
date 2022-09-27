@@ -79,7 +79,7 @@ def good():
             while True:
                 menu_list_def.clear()
                 logo.logos.main_logo()
-                menu_list_def.goodm.microsoft_listA('self')
+                menu_list_def.microsoft.microsoft_listA('self')
                 menu_list_def.back_text()
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 
@@ -99,15 +99,39 @@ def good():
                     os.system("winget export " + C_DIR_EX)
 
                 if system_lista == 5:
+                    while True:
+                        menu_list_def.clear()
+                        logo.logos.main_logo()
+                        menu_list_def.microsoft.microsoft_install('self')
+                        menu_list_def.back_text()
 
-                    Popen('powershell ' + win_search, creationflags=CREATE_NEW_CONSOLE)
-                    system_lista = input("" + lang.language.langs["main"][9])
-                    os.system("winget install " + system_lista)
+                        if system_lista == 0:
+                            Popen('powershell ' + win_search, creationflags=CREATE_NEW_CONSOLE)
+
+                        if system_lista == 1:
+                            system_lista = input("" + lang.language.langs["main"][9])
+                            os.system("winget install " + system_lista)
+
+                        if system_lista == 20:
+                            break
 
                 if system_lista == 6:
-                    Popen('powershell ' + win_install, creationflags=CREATE_NEW_CONSOLE)
-                    system_lista = input("" + lang.language.langs["main"][9])
-                    os.system("winget uninstall " + system_lista)
+                    while True:
+                        menu_list_def.clear()
+                        logo.logos.main_logo()
+                        menu_list_def.microsoft.microsoft_uninstall('self')
+                        menu_list_def.back_text()
+                        system_lista = int(input("" + lang.language.langs["main"][6]))
+
+                        if system_lista == 0:
+                            Popen('powershell ' + win_install, creationflags=CREATE_NEW_CONSOLE)
+
+                        if system_lista == 1:
+                            system_lista = input("" + lang.language.langs["main"][9])
+                            os.system("winget uninstall " + system_lista)
+
+                        if system_lista == 20:
+                            break
 
                 if system_lista == 20:
                     break

@@ -530,6 +530,16 @@
     "[ 6]: Uninstall Apps"
   ],
 
+  "Microsoft_Store_install_fixer": [
+    "[ 0]: Start list",
+    "[ 1]: Install app"
+  ],
+
+  "Microsoft_Store_uninstall_fixer": [
+    "[ 0]: Start list",
+    "[ 1]: Uninstall app"
+  ],
+
   "Update_Fixer": [
     " FIXED LIBERITY",
     "[ 0]: Windows Powershell Update",

@@ -383,12 +383,6 @@ class goodm:
         for i in range(0, len(lista)):
             print(lista[i])
 
-    def microsoft_listA(self):
-        lista = lang.language.langs['Microsoft_Store']
-        i = 0
-        for i in range(0, len(lista)):
-            print(lista[i])
-
     def Update_Fixer(self):
         lista = lang.language.langs['Update_Fixer']
         i = 0
@@ -397,6 +391,25 @@ class goodm:
 
     def Windows_Defender(self):
         lista = lang.language.langs['Windows_Defender']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+class microsoft:
+    def microsoft_listA(self):
+        lista = lang.language.langs['Microsoft_Store']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+    def microsoft_install(self):
+        lista = lang.language.langs['Microsoft_Store_install_fixer']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+    def microsoft_uninstall(self):
+        lista = lang.language.langs['Microsoft_Store_uninstall_fixer']
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
