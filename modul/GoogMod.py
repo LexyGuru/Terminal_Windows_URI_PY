@@ -166,15 +166,12 @@ def good():
 
                 if system_lista == 0:
                     Popen('powershell ' + w_scan_updates, creationflags=CREATE_NEW_CONSOLE)
-                    pass
 
                 if system_lista == 1:
                     Popen('powershell ' + w_scan_Quick, creationflags=CREATE_NEW_CONSOLE)
-                    pass
 
                 if system_lista == 2:
                     Popen('powershell ' + w_scan_Full, creationflags=CREATE_NEW_CONSOLE)
-                    pass
 
                 if system_lista == 20:
                     break
