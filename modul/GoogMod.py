@@ -19,8 +19,16 @@ power_set = ROOT_DIR + "\winscript\power_set.ps1"
 update_powershell = ROOT_DIR + "\winscript\windows_runas_update.ps1"
 update_powershell_fixer = ROOT_DIR + "\winscript\windows_runas_update_fixer.ps1"
 
+'''***************************************************************************************'''
+restart_vga_driver = ROOT_DIR + "\winscript\windows_runas_vga_driver_restart.ps1"
+restart_vga_driver_start = ROOT_DIR + "\winscript\windows_runas_vga_restart_start.ps1"
+restart_vga_id = "pnputil /restart-device "
+vga_list = '"'
+'''***************************************************************************************'''
+
 steam_fix = ROOT_DIR + "\winscript\steam_fix_service.ps1"
 
+C_DIR_VGA_IN = "C:/TEMP/"
 C_DIR_IN = "C:/TEMP/IMPORT.json"
 C_DIR_EX = "C:/TEMP/EXPORT.json"
 
@@ -152,6 +160,25 @@ def good():
 
                 if system_lista == 2:
                     Popen('powershell ' + steam_fix, creationflags=CREATE_NEW_CONSOLE)
+
+                if system_lista == 3:
+
+                    Popen('powershell ' + restart_vga_driver, creationflags=CREATE_NEW_CONSOLE)
+                    system_lista = input("" + lang.language.langs["main"][10])
+
+                    ''' 
+                    "x" - Create - will create a file, returns an error if the file exist 
+                    "a" - Append - will create a file if the specified file does not exist
+                    "w" - Write - will create a file if the specified file does not exist
+                    '''
+
+                    f = open(C_DIR_VGA_IN + "ScriptVGARestart.ps1", "w")
+                    f.write(restart_vga_id + vga_list + system_lista + vga_list)
+                    f.close()
+
+                    file = restart_vga_driver_start
+                    Popen('powershell ' + file)
+
 
                 if system_lista == 20:
                     break

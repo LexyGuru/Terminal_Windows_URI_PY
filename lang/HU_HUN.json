@@ -9,7 +9,8 @@
     "Adj meg egy szämot:",
     "These settings are only available if the Mixed Reality Portal app is installed.",
     "[30]: Vissza",
-    "Added GUID ID:"
+    "Added GUID ID:",
+    "Added Instance ID:"
   ],
 
   "menu_list":[
@@ -544,7 +545,8 @@
     " FIXED LIBERITY",
     "[ 0]: Windows Powershell Update",
     "[ 1]: Windows update Fixer",
-    "[ 2]: Steam Service Fixed"
+    "[ 2]: Steam Service Fixed",
+    "[ 3]: VGA Driver Restart"
   ],
 
   "Windows_Defender": [
