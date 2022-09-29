@@ -378,6 +378,7 @@ WinURI Fast Link for Win 10 / 11 (Terminal)
       1. [x] Windows Powershell Update
       2. [x] Windows Update Fixer
       3. [x] Steam Service Fixed
+      4. [x] VGA Driver Restart
 
     5. [x] Windows Defender
       1. [x] Defender Updater

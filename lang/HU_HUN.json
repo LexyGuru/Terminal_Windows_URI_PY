@@ -9,7 +9,8 @@
     "Adj meg egy szämot:",
     "These settings are only available if the Mixed Reality Portal app is installed.",
     "[30]: Vissza",
-    "Added GUID ID:"
+    "Added GUID ID:",
+    "Added Instance ID:"
   ],
 
   "menu_list":[
@@ -30,7 +31,11 @@
     "[14]: Mixed reality",
     "[15]: Surface Hub",
     "[16]: Shell Commands",
-    "[17]: GoodMod"
+    "[17]: GoodMod",
+    "----------------------------",
+    "[99]: BETA PROJECT",
+    "----------------------------"
+
   ],
 
   "menu_system":[
@@ -526,11 +531,22 @@
     "[ 6]: Uninstall Apps"
   ],
 
+  "Microsoft_Store_install_fixer": [
+    "[ 0]: Start list",
+    "[ 1]: Install app"
+  ],
+
+  "Microsoft_Store_uninstall_fixer": [
+    "[ 0]: Start list",
+    "[ 1]: Uninstall app"
+  ],
+
   "Update_Fixer": [
     " FIXED LIBERITY",
     "[ 0]: Windows Powershell Update",
     "[ 1]: Windows update Fixer",
-    "[ 2]: Steam Service Fixed"
+    "[ 2]: Steam Service Fixed",
+    "[ 3]: VGA Driver Restart"
   ],
 
   "Windows_Defender": [
