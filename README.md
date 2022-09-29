@@ -18,3 +18,5 @@ Windows 10 / 11 Fast link
 [![documentation](https://img.shields.io/badge/documentation-wiki-blue.svg)](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki)
 
 Please, see the [Wiki](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki) to get information about the product setup and usage.
+
+
