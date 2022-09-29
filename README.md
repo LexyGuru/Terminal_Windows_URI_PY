@@ -3,7 +3,7 @@
 
 | Current | Beta |
 | ------- |------|
-| [![Current Build](https://api.travis-ci.org/image-rs/image-png.svg?branch=master)](https://github.com/LexyGuru/Terminal_Windows_URI_PY) | [![Bata Build](https://api.travis-ci.org/image-rs/image-png.svg?branch=master)](https://github.com/LexyGuru/Terminal_Windows_URI_PY/tree/beta) |
+| [![Current Build](https://github.com/LexyGuru/Terminal_Windows_URI_PY/blob/main/SVG_DIR/platform.svg](https://github.com/LexyGuru/Terminal_Windows_URI_PY) | [![Bata Build](https://github.com/LexyGuru/Terminal_Windows_URI_PY/blob/main/SVG_DIR/beta.svg)](https://github.com/LexyGuru/Terminal_Windows_URI_PY/tree/beta) |
 
 > ** [installation guide](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki/Install) to update the repository.**
 
