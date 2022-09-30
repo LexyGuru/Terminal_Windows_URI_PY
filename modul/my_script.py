@@ -1,4 +1,7 @@
 import os
+
+import guiprint
+
 import lang
 import logo
 import menu_list_def
@@ -13,6 +16,11 @@ host_edit = ROOT_DIR + "\\beta\\hosts_edit.ps1"
 def beta_my_script():
     while True:
         menu_list_def.clear()
+        a = "----------------------------------------\n"
+        b = "             BETA PROJECT               \n"
+        c = "          WARNING NOT TESTED            \n"
+        d = "----------------------------------------\n"
+        guiprint.print(a + b + c + d)
         logo.logos.main_logo()
         print("----------------------------------------")
         print("              beta project              ")
@@ -21,6 +29,7 @@ def beta_my_script():
         print("[ 1]: Ethernet Enabled")
         print("[ 2]: HOSTS EDIT!!!")
         menu_list_def.exits_text()
+
 
         system_lista = int(input("" + lang.language.langs["main"][6]))
 
