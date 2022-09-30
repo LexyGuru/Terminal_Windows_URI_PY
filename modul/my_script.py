@@ -14,7 +14,9 @@ def beta_my_script():
     while True:
         menu_list_def.clear()
         logo.logos.main_logo()
-        print("beta project ")
+        print("----------------------------------------")
+        print("              beta project              ")
+        print("----------------------------------------")
         print("[ 0]: Ethernet Disabled")
         print("[ 1]: Ethernet Enabled")
         print("[ 2]: HOSTS EDIT!!!")
