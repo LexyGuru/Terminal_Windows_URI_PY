@@ -1,9 +1,9 @@
 import os
-
 import guiprint
 
+import beta.beta_logo
 import lang
-import logo
+import requests
 import menu_list_def
 from subprocess import Popen, CREATE_NEW_CONSOLE
 
@@ -16,18 +16,7 @@ host_edit = ROOT_DIR + "\\beta\\hosts_edit.ps1"
 def beta_my_script():
     while True:
         menu_list_def.clear()
-
-        a = "----------------------------------------\n"
-        b = "             BETA PROJECT               \n"
-        c = "          WARNING NOT TESTED            \n"
-        d = "----------------------------------------\n"
-        guiprint.print(a + b + c + d)
-        logo_test = "https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/beta/logo"
-        import requests
-        response = requests.get(logo_test)
-        data = response.text
-
-        print(data)
+        beta.beta_logo.logo()
         print("----------------------------------------")
         print("              beta project              ")
         print("----------------------------------------")
