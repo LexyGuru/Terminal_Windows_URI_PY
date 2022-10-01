@@ -21,7 +21,14 @@ def beta_my_script():
         c = "          WARNING NOT TESTED            \n"
         d = "----------------------------------------\n"
         guiprint.print(a + b + c + d)
-        logo.logos.main_logo()
+        '''logo.logos.main_logo()'''
+        logo_test = "https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/logo.py"
+
+        import requests
+        response = requests.get(logo_test)
+        data = response.text
+        print(data)
+
         print("----------------------------------------")
         print("              beta project              ")
         print("----------------------------------------")
@@ -29,8 +36,6 @@ def beta_my_script():
         print("[ 1]: Ethernet Enabled")
         print("[ 2]: HOSTS EDIT!!!")
         menu_list_def.exits_text()
-
-
         system_lista = int(input("" + lang.language.langs["main"][6]))
 
         if system_lista == 0:
