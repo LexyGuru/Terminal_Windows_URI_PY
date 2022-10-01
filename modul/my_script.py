@@ -14,7 +14,7 @@ host_edit = ROOT_DIR + "\\beta\\hosts_edit.ps1"
 def beta_my_script():
     while True:
         menu_list_def.clear()
-        beta_logo.logo()
+        beta_logo.logo.raw_logo()
         print("----------------------------------------")
         print("              beta project              ")
         print("----------------------------------------")
