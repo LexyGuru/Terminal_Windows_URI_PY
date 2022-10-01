@@ -1,9 +1,7 @@
 import os
-import guiprint
 
-import beta.beta_logo
+import beta_logo
 import lang
-import requests
 import menu_list_def
 from subprocess import Popen, CREATE_NEW_CONSOLE
 
@@ -16,7 +14,7 @@ host_edit = ROOT_DIR + "\\beta\\hosts_edit.ps1"
 def beta_my_script():
     while True:
         menu_list_def.clear()
-        beta.beta_logo.logo()
+        beta_logo.logo()
         print("----------------------------------------")
         print("              beta project              ")
         print("----------------------------------------")
