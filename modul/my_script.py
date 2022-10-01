@@ -16,19 +16,18 @@ host_edit = ROOT_DIR + "\\beta\\hosts_edit.ps1"
 def beta_my_script():
     while True:
         menu_list_def.clear()
+
         a = "----------------------------------------\n"
         b = "             BETA PROJECT               \n"
         c = "          WARNING NOT TESTED            \n"
         d = "----------------------------------------\n"
         guiprint.print(a + b + c + d)
-        '''logo.logos.main_logo()'''
-        logo_test = "https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/logo.py"
-
+        logo_test = "https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/beta/logo"
         import requests
         response = requests.get(logo_test)
         data = response.text
-        print(data)
 
+        print(data)
         print("----------------------------------------")
         print("              beta project              ")
         print("----------------------------------------")
