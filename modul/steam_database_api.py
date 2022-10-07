@@ -3,6 +3,8 @@ import subprocess
 import requests
 import lang
 
+from pywinauto.application import Application
+
 class SteamDB:
     def steamdb_generate(self):
         url = 'http://api.steampowered.com/ISteamApps/GetAppList/v2'
@@ -15,7 +17,7 @@ class SteamDB:
                 fp.write("%s\n" % item)
                 print('Done' + str(item))
 
-    def stamdb_finder(self):
+    def steamdb_finder_a(self):
         # string to search in file
         '''word = 'Global Offensive'''
         word = input("" + lang.language.langs["main"][6])
@@ -29,6 +31,20 @@ class SteamDB:
                     print('Line Number:', lines.index(line))
                     print('Line:', line)
 
+    def steamdb_finder_b(self):
+        print("[ 0]: Hungarian")
+        print("[ 1]: English")
+        selected_lang = int(input("Selected: "))
+
+        if selected_lang == 0:
+            app = Application().start("notepad.exe c:\\temp\steamdb.txt")
+            app.UntitledNotepad.menu_select("S&zerkesztés->Keresés")
+
+        if selected_lang == 1:
+            app = Application().start("notepad.exe c:\\temp\steamdb.txt")
+            app.UntitledNotepad.menu_select("Edit->Find")
+
+
     def steam_run_game(self):
         appid = input("Added Appidd: ")
         prgm_path = ""
@@ -41,8 +57,3 @@ class SteamDB:
 
         startgame = prgm_path + "\Steam\steam.exe -applaunch " + appid
         subprocess.Popen(startgame)
-
-
-
-
-

@@ -552,7 +552,23 @@
     "[ 0] Microsoft Defender updates",
     "[ 1] Quick Virus Scan",
     "[ 2] Full Virus Scan"
+  ],
+
+  "beta_project": [
+    "----------------------------------------",
+    "              beta project              ",
+    "----------------------------------------",
+    "[ 0]: Ethernet Disabled",
+    "[ 1]: Ethernet Enabled",
+    "[ 2]: HOSTS EDIT!!!",
+    "[ 3]: SteamDB finder starter"
+  ],
+  "beta_project_steamdb": [
+    "{[BETA TESTED] {[BETA TESTED]} {[BETA TESTED]}",
+    "",
+    "[ 0]: SteamDB Downloads (DOWNLOADS DATA)",
+    "[ 1]: SteamDB Finder (NO LOG FILE)",
+    "[ 2]: SteamDB Finder (notepad (eng, hun !!!!!))",
+    "[ 3]: Run Steam Game (PL.: (CS:GO Appid:730)"
   ]
-
-
 }

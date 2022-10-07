@@ -20,3 +20,5 @@ if main_lang == ['eng']:
 json.load(codecs.open(lang, 'r', 'utf-8-sig'))
 with open(lang, encoding='utf-8-sig') as f:
     langs = json.load(f)
+
+

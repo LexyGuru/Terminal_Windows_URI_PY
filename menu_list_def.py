@@ -413,3 +413,16 @@ class microsoft:
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
+
+class beta:
+    def beta_project_lang(self):
+        lista = lang.language.langs['beta_project']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+    def beta_project_lang_steamdb(self):
+        lista = lang.language.langs['beta_project_steamdb']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])

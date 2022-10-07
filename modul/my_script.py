@@ -18,13 +18,7 @@ def beta_my_script():
     while True:
         menu_list_def.clear()
         beta_logo.logo.raw_logo()
-        print("----------------------------------------")
-        print("              beta project              ")
-        print("----------------------------------------")
-        print("[ 0]: Ethernet Disabled")
-        print("[ 1]: Ethernet Enabled")
-        print("[ 2]: HOSTS EDIT!!!")
-        print("[ 3]: SteamDB finder starter")
+        menu_list_def.beta.beta_project_lang('self')
         menu_list_def.exits_text()
         system_lista = int(input("" + lang.language.langs["main"][6]))
 
@@ -40,12 +34,7 @@ def beta_my_script():
         if system_lista == 3:
             while True:
                 beta_logo.logo.raw_logo()
-                print("")
-                print("{[BETA TESTED] {[BETA TESTED]} {[BETA TESTED]}")
-                print("")
-                print("[ 0]: SteamDB Downloads (DOWNLOADS DATA)")
-                print("[ 1]: SteamDB Finder (NO LOG FILE)")
-                print("[ 2]: Run Steam Game (PL.: (CS:GO Appid:730)")
+                menu_list_def.beta.beta_project_lang_steamdb('self')
                 menu_list_def.exits_text()
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 
@@ -53,9 +42,12 @@ def beta_my_script():
                     steam_database_api.SteamDB.steamdb_generate('self')
 
                 if system_lista == 1:
-                    steam_database_api.SteamDB.stamdb_finder('self')
+                    steam_database_api.SteamDB.steamdb_finder_a('self')
 
                 if system_lista == 2:
+                    steam_database_api.SteamDB.steamdb_finder_b('self')
+
+                if system_lista == 3:
                     steam_database_api.SteamDB.steam_run_game('self')
 
                 if system_lista == 20:
