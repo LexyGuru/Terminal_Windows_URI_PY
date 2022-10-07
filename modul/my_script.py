@@ -44,7 +44,7 @@ def beta_my_script():
                 print("{[BETA TESTED] {[BETA TESTED]} {[BETA TESTED]}")
                 print("")
                 print("[ 0]: SteamDB Downloads (DOWNLOADS DATA)")
-                print("[ 1]: SteamDB Finder (NO LOG FILE )")
+                print("[ 1]: SteamDB Finder (NO LOG FILE)")
                 print("[ 2]: Run Steam Game (PL.: (CS:GO Appid:730)")
                 menu_list_def.exits_text()
                 system_lista = int(input("" + lang.language.langs["main"][6]))

@@ -13,7 +13,7 @@ class SteamDB:
             for item in h:
                 # write each item on a new line
                 fp.write("%s\n" % item)
-                print('Done')
+                print('Done' + str(item))
 
     def stamdb_finder(self):
         # string to search in file
