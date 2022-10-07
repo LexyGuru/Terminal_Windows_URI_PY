@@ -6,6 +6,13 @@
 | [![Current Build](https://github.com/LexyGuru/Terminal_Windows_URI_PY/blob/main/SVG_DIR/platform.svg)](https://github.com/LexyGuru/Terminal_Windows_URI_PY) | [![Bata Build](https://github.com/LexyGuru/Terminal_Windows_URI_PY/blob/main/SVG_DIR/beta.svg)](https://github.com/LexyGuru/Terminal_Windows_URI_PY/tree/beta) |
 
 > ** [installation guide](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki/Install) to update the repository.**
+ 
+***
+
+> Downloads Current: [v1.0.0](https://github.com/LexyGuru/Terminal_Windows_URI_PY/releases/download/v1.0.0/WindowsURIpy.zip)
+
+> Downloads Beta: [beta_v1.1.10](https://github.com/LexyGuru/Terminal_Windows_URI_PY/releases/download/beta_v1.1.10/WindowsURIpyBeta.zip)
+
 
 ***
 
@@ -18,5 +25,7 @@ Windows 10 / 11 Fast link
 [![documentation](https://img.shields.io/badge/documentation-wiki-blue.svg)](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki)
 
 Please, see the [Wiki](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki) to get information about the product setup and usage.
+
+<span style="color: green">  </span>
 
 
