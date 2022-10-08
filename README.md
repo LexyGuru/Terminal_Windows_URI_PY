@@ -9,9 +9,7 @@
  
 ***
 
-> Downloads Current: [v1.0.0](https://github.com/LexyGuru/Terminal_Windows_URI_PY/releases/download/v1.0.0/WindowsURIpy.zip)
-
-> Downloads Beta: [beta_v1.1.10](https://github.com/LexyGuru/Terminal_Windows_URI_PY/releases/download/beta_v1.1.10/WindowsURIpyBeta.zip)
+> Downloads Current: [releases](https://github.com/LexyGuru/Terminal_Windows_URI_PY/releases/tag/beta_v1.1.51)
 
 
 ***
