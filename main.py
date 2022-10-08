@@ -45,7 +45,8 @@ def menulista():
     while True:
         menu_list_def.clear()
         logo.logos.main_logo()
-        verch.ver_ch()
+        verch.verzion.ver_ch('self')
+        verch.verzion.ver_ch_beta('self')
 
         example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
         print(example_ansi)
