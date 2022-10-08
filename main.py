@@ -24,15 +24,30 @@ import modul.Update_Security
 import modul.Surface_Hub
 import modul.Shell_Command
 import modul.GoogMod
+import verch
 
 ''' // BETA PROJECT //'''
 import modul.my_script
 
 
+class ANSI():
+  def background(code):
+    return "\33[{code}m".format(code=code)
+
+  def style_text(code):
+    return "\33[{code}m".format(code=code)
+
+  def color_text(code):
+    return "\33[{code}m".format(code=code)
+
 def menulista():
     while True:
         menu_list_def.clear()
         logo.logos.main_logo()
+        verch.ver_ch()
+
+        example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+        print(example_ansi)
         menu_list_def.menu_listaA()
         menu_list_def.exits_text()
 
