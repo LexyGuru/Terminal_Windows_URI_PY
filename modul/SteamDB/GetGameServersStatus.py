@@ -9,7 +9,7 @@ class game:
     def CSGOServers_730(self):
         while True:
             menu_list_def.clear()
-            beta_logo.logo.raw_logo()
+            beta_logo.logo.beta_logo()
 
             print("[ 0]: Steam Web API key")
             print("[ 1]: CS:GO Server Status")
@@ -25,7 +25,7 @@ class game:
             if keyload == 1:
                 while True:
                     menu_list_def.clear()
-                    beta_logo.logo.raw_logo()
+                    beta_logo.logo.beta_logo()
                     print("Added Api key")
                     '''keyin = input("key: ")'''
                     print("[ 0]: Services")

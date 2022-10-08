@@ -17,7 +17,7 @@ steamjson = "c:\\temp\steamdb.json"
 def beta_my_script():
     while True:
         menu_list_def.clear()
-        beta_logo.logo.raw_logo()
+        beta_logo.logo.beta_logo()
         menu_list_def.beta.beta_project_lang('self')
         menu_list_def.exits_text()
         system_lista = int(input("" + lang.language.langs["main"][6]))
@@ -33,7 +33,7 @@ def beta_my_script():
 
         if system_lista == 3:
             while True:
-                beta_logo.logo.raw_logo()
+                beta_logo.logo.beta_logo()
                 menu_list_def.beta.beta_project_lang_steamdb('self')
                 menu_list_def.exits_text()
                 system_lista = int(input("" + lang.language.langs["main"][6]))
