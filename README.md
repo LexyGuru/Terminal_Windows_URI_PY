@@ -9,7 +9,7 @@
  
 ***
 
-> Downloads Current: [releases](https://github.com/LexyGuru/Terminal_Windows_URI_PY/releases/tag/beta_v1.1.51)
+> Downloads Current: [releases](https://github.com/LexyGuru/Terminal_Windows_URI_PY/releases)
 
 
 ***
