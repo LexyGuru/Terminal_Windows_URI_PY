@@ -52,6 +52,7 @@ def beta_my_script():
 
                 if system_lista == 20:
                     break
+
         if system_lista == 20:
             break
 

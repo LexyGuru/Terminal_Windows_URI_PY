@@ -28,6 +28,7 @@ import verch
 
 ''' // BETA PROJECT //'''
 import modul.my_script
+import modul.SteamDB.GetGameServersStatus
 
 
 class ANSI():
@@ -44,7 +45,8 @@ def menulista():
     while True:
         menu_list_def.clear()
         logo.logos.main_logo()
-        verch.ver_ch()
+        verch.verzion.ver_ch('self')
+        verch.verzion.ver_ch_beta('self')
 
         example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
         print(example_ansi)
@@ -92,6 +94,8 @@ def menulista():
 
         if system_lista == 99:
             modul.my_script.beta_my_script()
+        if system_lista == 98:
+            modul.SteamDB.GetGameServersStatus.game.CSGOServers_730('self')
 
         if system_lista == 20:
             exit()
