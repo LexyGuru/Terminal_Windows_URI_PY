@@ -1,7 +1,7 @@
 import requests
 
 
-class logo:
+class logos:
     @staticmethod
     def beta_logo():
         logo_test = "https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/beta/logo"

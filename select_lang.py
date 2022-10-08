@@ -6,7 +6,7 @@ import beta_logo
 import logo
 import json
 
-beta_logo.logo.lang_logo()
+beta_logo.logos.lang_logo()
 
 def language():
 
