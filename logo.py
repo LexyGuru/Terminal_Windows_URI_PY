@@ -1,4 +1,5 @@
 from sty import fg
+import verch
 
 class logos:
     @staticmethod
