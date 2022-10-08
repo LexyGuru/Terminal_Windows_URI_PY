@@ -1,7 +1,9 @@
 import logo
 import menu_list_def
 import lang
+import os
 
+ROOT_DIR = os.path.abspath(os.curdir)
 
 """MODUL LIST IMPORT"""
 import modul.Accounts
