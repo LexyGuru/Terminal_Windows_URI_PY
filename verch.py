@@ -23,7 +23,7 @@ def ver_ch():
   b = new_ver
 
   if b > a:
-    example_ansi = ANSI.background(0) + ANSI.color_text(39) + ANSI.style_text(31) + "New ver: " + b
+    example_ansi = ANSI.background(0) + ANSI.color_text(39) + ANSI.style_text(31) + "New Beta ver: " + b
     print(example_ansi)
 
   elif a == b:
