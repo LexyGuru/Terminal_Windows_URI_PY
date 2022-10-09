@@ -25,6 +25,7 @@ import modul.Surface_Hub
 import modul.Shell_Command
 import modul.GoogMod
 import verch
+import modul.SteamDB.GetOwnedGames
 
 ''' // BETA PROJECT //'''
 import modul.my_script
@@ -96,6 +97,8 @@ def menulista():
             modul.my_script.beta_my_script()
         if system_lista == 98:
             modul.SteamDB.GetGameServersStatus.game.CSGOServers_730('self')
+        if system_lista == 97:
+            modul.SteamDB.GetOwnedGames.steamDB.user_info('self')
 
         if system_lista == 20:
             exit()
