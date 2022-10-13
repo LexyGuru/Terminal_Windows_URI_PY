@@ -20,14 +20,14 @@
   ],
 
   "menu_b": [
-    "----------------------------",
+    "-------------STEAM-------------",
     "[93]: SteamDB Player Summaries",
     "[94]: SteamDB My Summaries",
     "[95]: SteamDB MyBan Info",
     "[96]: SteamDB PlayerGame Info",
     "[97]: SteamDB MyGame Info",
     "[98]: SteamDB API Server",
-    "----------------------------"
+    "-------------------------------"
   ],
 
   "menu_c": [

@@ -1,11 +1,10 @@
 import json
 import os
 import webbrowser
-
+import lang.language
 import requests
 
 import beta.logo_class
-import logo
 import menu_list_def
 import verch
 from colorama import Fore, Back, Style
@@ -52,7 +51,7 @@ def GetPlayerSummaries():
             print(fg(255, 80, 180) + "loccountrycode: " + fg(255, 180, 0) +h.get('loccountrycode')+ fg.rs)
 
             print("")
-            system_lista = int(input("[20]: Back: "))
+            system_lista = int(input("" + lang.language.langs["main"][1]))
 
         if system_lista == 20:
             break
@@ -64,18 +63,19 @@ def GetPlayerSummaries_player():
         beta.logo_class.logo_all.SteramDB_logo_v2()
         verch.verzion.ver_ch('self')
         verch.verzion.ver_ch_beta('self')
+
         example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
         print(example_ansi)
+
+        menu_list_def.SteamDB_lang.SteamDB_Summaries('self')
+        menu_list_def.back_text()
 
         ROOT_DIR = os.path.abspath(os.curdir)
 
         with open(ROOT_DIR + '\\config\\SteamDB_key.json', "r") as file:
             jsonData = json.load(file)
             keyin = jsonData['steam_key'][0]
-            print("[ 0]: SteamUserFinder Web")
-            print("[ 1]: SteamUser Info")
-            print("[20]: Back")
-            system_lista = int(input("Input: "))
+            system_lista = int(input("" + lang.language.langs["main"][6]))
 
             if system_lista == 0:
                 webbrowser.open('https://steamcommunity.com/search/users/#text=')
@@ -107,15 +107,6 @@ def GetPlayerSummaries_player():
                 example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
                 print(example_ansi)
 
-                '''print("steamid: " + h.get('steamid'))
-                print("personaname: " + h.get('personaname'))
-                print("realname: " + str(h.get('realname')))
-                print("profileurl: " + h.get('profileurl'))
-                print("avatar: " + h.get('avatar'))
-                print("avatarfull: " + h.get('avatarfull'))
-                print("lastlogoff: " + str(h.get('lastlogoff')))
-                print("loccountrycode: " + h.get('loccountrycode'))'''
-
                 print(fg(255, 80, 250) + "steamid: " + fg(255, 180, 70) + h.get('steamid') + fg.rs)
                 print(fg(255, 80, 240) + "personaname: " + fg(255, 180, 60) + h.get('personaname') + fg.rs)
                 print(fg(255, 80, 230) + "realname: " + fg(255, 180, 50) + str(h.get('realname')) + fg.rs)
@@ -126,7 +117,7 @@ def GetPlayerSummaries_player():
                 print(fg(255, 80, 180) + "loccountrycode: " + fg(255, 180, 0) + h.get('loccountrycode') + fg.rs)
 
                 print("")
-                system_lista = int(input("[20]: Back: "))
+                system_lista = int(input("" + lang.language.langs["main"][1]))
 
             if system_lista == 20:
                 break

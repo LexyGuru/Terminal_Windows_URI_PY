@@ -68,7 +68,7 @@ def menulista():
                 example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
                 print(example_ansi)
                 menu_list_def.menu_listaA()
-                menu_list_def.exits_text()
+                menu_list_def.back_text()
 
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 
@@ -121,7 +121,7 @@ def menulista():
                 example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
                 print(example_ansi)
                 menu_list_def.menu_C()
-                menu_list_def.exits_text()
+                menu_list_def.back_text()
 
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 
@@ -140,11 +140,11 @@ def menulista():
                 example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
                 print(example_ansi)
                 menu_list_def.menu_B()
-                menu_list_def.exits_text()
+                menu_list_def.back_text()
 
                 system_lista = int(input("" + lang.language.langs["main"][6]))
                 if system_lista == 98:
-                    modul.SteamDB.GetGameServersStatus.game.CSGOServers_730('self')
+                    modul.SteamDB.GetGameServersStatus.game.CSGOServers_730()
                 if system_lista == 97:
                     modul.SteamDB.GetOwnedGames.steamDB.my_userid_info('self')
                 if system_lista == 96:

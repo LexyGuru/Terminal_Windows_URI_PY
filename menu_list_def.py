@@ -1,5 +1,6 @@
 import color_def_list
 import lang.language
+'''import lang.SteamDB_language'''
 import os
 import logo
 
@@ -7,20 +8,24 @@ import logo
 def clear():
     os.system("cls")
 
+
 def next_text():
     print("")
     print(lang.language.langs['main'][2])
     print("")
+
 
 def back_to_menu_text():
     print("")
     print(lang.language.langs['main'][3])
     print("")
 
+
 def back_text():
     print("")
     print(lang.language.langs['main'][1])
     print("")
+
 
 def extra_back_text():
     print("")
@@ -40,17 +45,20 @@ def menu_listaA():
     for i in range(0, len(lista)):
         print(lista[i])
 
+
 def menu_A():
     lista = lang.language.langs['menu_a']
     i = 0
     for i in range(0, len(lista)):
         print(lista[i])
 
+
 def menu_B():
     lista = lang.language.langs['menu_b']
     i = 0
     for i in range(0, len(lista)):
         print(lista[i])
+
 
 def menu_C():
     lista = lang.language.langs['menu_c']
@@ -157,6 +165,7 @@ class personalization_list:
         for i in range(0, len(lista)):
             print(lista[i])
 
+
 class apps_list:
 
     def apps_listA(self):
@@ -176,6 +185,7 @@ class apps_list:
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
+
 
 class accounts_list:
 
@@ -260,6 +270,7 @@ class search:
         for i in range(0, len(lista)):
             print(lista[i])
 
+
 class privacy:
 
     def privacy_listA(self):
@@ -312,6 +323,7 @@ class surface_hub:
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
+
 
 class shell:
 
@@ -381,6 +393,7 @@ class shell:
         for i in range(0, len(lista)):
             print(lista[i])
 
+
 class goodm:
 
     def goodmod_listA(self):
@@ -413,6 +426,7 @@ class goodm:
         for i in range(0, len(lista)):
             print(lista[i])
 
+
 class microsoft:
     def microsoft_listA(self):
         lista = lang.language.langs['Microsoft_Store']
@@ -432,6 +446,7 @@ class microsoft:
         for i in range(0, len(lista)):
             print(lista[i])
 
+
 class beta:
     def beta_project_lang(self):
         lista = lang.language.langs['beta_project']
@@ -441,6 +456,26 @@ class beta:
 
     def beta_project_lang_steamdb(self):
         lista = lang.language.langs['beta_project_steamdb']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+
+class SteamDB_lang:
+    def SteamDB_Summaries(self):
+        lista = lang.language.langdb['SteamDB_Summaries']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+    def GetGameServersStatus(self):
+        lista = lang.language.langdb['GetGameServersStatus']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+    def GetGameServersStatus_list(self):
+        lista = lang.language.langdb['GetGameServersStatus_list']
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])
