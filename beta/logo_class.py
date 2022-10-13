@@ -1,3 +1,5 @@
+from sty import fg, ef, rs
+
 class logo_all:
     @staticmethod
     def main_logo():
@@ -13,7 +15,8 @@ class logo_all:
         print("  / _ )___ / /____ _  / _ \_______    (_)__ ____/ /_ ")
         print(" / _  / -_) __/ _ `/ / ___/ __/ _ \  / / -_) __/ __/ ")
         print("/____/\__/\__/\_,_/ /_/  /_/  \___/_/ /\__/\__/\__/  ")
-        print("                                 |___/               ")
+        print("         Create by LexyGuru      |___/               ")
+        print("")
 
     @staticmethod
     def lang_logo():
@@ -29,7 +32,16 @@ class logo_all:
         print("  / __/ /____ ___ ___ _  / _ \/ _ )  / _ | ___  (_)")
         print(" _\ \/ __/ -_) _ `/  ' \/ // / _  | / __ |/ _ \/ / ")
         print("/___/\__/\__/\_,_/_/_/_/____/____/ /_/ |_/ .__/_/  ")
-        print("                                        /_/        ")
+        print("            Create by LexyGuru          /_/        ")
+        print("")
+
+    @staticmethod
+    def SteramDB_logo_v2():
+        print(fg(255, 80, 250) + "   ______                 ___  ___    ___        _ " + fg.rs)
+        print(fg(255, 80, 200) + "  / __/ /____ ___ ___ _  / _ \/ _ )  / _ | ___  (_)" + fg.rs)
+        print(fg(255, 80, 150) + " _\ \/ __/ -_) _ `/  ' \/ // / _  | / __ |/ _ \/ / " + fg.rs)
+        print(fg(255, 80, 100) + "/___/\__/\__/\_,_/_/_/_/____/____/ /_/ |_/ .__/_/  " + fg.rs)
+        print(fg(20, 180, 90) + "            Create by LexyGuru" + fg(255, 80, 50) +"          /_/        " + fg.rs)
 
 
     @staticmethod
@@ -43,7 +55,4 @@ class logo_all:
         print("                                                        (____/                       (____/                            ")
 
 
-logo_all.main_logo()
-logo_all.beta_logo()
-logo_all.SteamDB_logo()
-logo_all.LexyGuru()
+'''logo_all.SteramDB_logo_v2()'''

@@ -13,6 +13,29 @@
     "Added Instance ID:"
   ],
 
+  "menu_a": [
+    "[ 0]: WindowsURIpy List",
+    "[ 1]: Beta Project",
+    "[ 2]: SteamDB API"
+  ],
+
+  "menu_b": [
+    "----------------------------",
+    "[93]: SteamDB Player Summaries",
+    "[94]: SteamDB My Summaries",
+    "[95]: SteamDB MyBan Info",
+    "[96]: SteamDB PlayerGame Info",
+    "[97]: SteamDB MyGame Info",
+    "[98]: SteamDB API Server",
+    "----------------------------"
+  ],
+
+  "menu_c": [
+    "----------------------------",
+    "[99]: BETA PROJECT",
+    "----------------------------"
+  ],
+
   "menu_list":[
     "[ 0]: System",
     "[ 1]: Devices",
@@ -31,13 +54,7 @@
     "[14]: Mixed reality",
     "[15]: Surface Hub",
     "[16]: Shell Commands",
-    "[17]: GoodMod",
-    "----------------------------",
-    "[97]: SteamDB GameUser Info",
-    "[98]: SteamDB API Server",
-    "[99]: BETA PROJECT",
-    "----------------------------"
-
+    "[17]: GoodMod"
   ],
 
   "menu_system":[

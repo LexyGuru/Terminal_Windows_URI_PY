@@ -40,6 +40,24 @@ def menu_listaA():
     for i in range(0, len(lista)):
         print(lista[i])
 
+def menu_A():
+    lista = lang.language.langs['menu_a']
+    i = 0
+    for i in range(0, len(lista)):
+        print(lista[i])
+
+def menu_B():
+    lista = lang.language.langs['menu_b']
+    i = 0
+    for i in range(0, len(lista)):
+        print(lista[i])
+
+def menu_C():
+    lista = lang.language.langs['menu_c']
+    i = 0
+    for i in range(0, len(lista)):
+        print(lista[i])
+
 
 class system_lista:
 
