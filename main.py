@@ -1,5 +1,3 @@
-import units as units
-
 import logo
 import menu_list_def
 import lang
@@ -32,11 +30,11 @@ import verch
 import modul.SteamDB.GetOwnedGames
 import modul.SteamDB.GetPlayerBans
 import modul.SteamDB.GetPlayerSummaries
-
+import modul.SteamDB.GetGameServersStatus
 
 ''' // BETA PROJECT //'''
 import modul.my_script
-import modul.SteamDB.GetGameServersStatus
+
 
 class ANSI():
   def background(code):
