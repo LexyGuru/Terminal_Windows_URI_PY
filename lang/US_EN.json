@@ -21,18 +21,18 @@
 
   "menu_b": [
     "-------------STEAM-------------",
-    "[93]: SteamDB Player Summaries",
-    "[94]: SteamDB My Summaries",
-    "[95]: SteamDB MyBan Info",
-    "[96]: SteamDB PlayerGame Info",
-    "[97]: SteamDB MyGame Info",
     "[98]: SteamDB API Server",
+    "[97]: SteamDB MyGame Info",
+    "[96]: SteamDB PlayerGame Info",
+    "[95]: SteamDB MyBan Info",
+    "[94]: SteamDB My Summaries",
+    "[93]: SteamDB Player Summaries",
     "-------------------------------"
   ],
 
   "menu_c": [
     "----------------------------",
-    "[99]: BETA PROJECT",
+    "[0]: BETA PROJECT",
     "----------------------------"
   ],
 
@@ -591,5 +591,12 @@
     "[ 1]: SteamDB Finder (NO LOG FILE)",
     "[ 2]: SteamDB Finder (notepad (eng, hun !!!!!))",
     "[ 3]: Run Steam Game (PL.: (CS:GO Appid:730)"
+  ],
+
+  "verch_lang":[
+    "No updates: ",
+    "New verzion: ",
+    "Download on github! "
   ]
+
 }

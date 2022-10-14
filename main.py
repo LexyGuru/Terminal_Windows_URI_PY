@@ -125,7 +125,7 @@ def menulista():
 
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 
-                if system_lista == 99:
+                if system_lista == 0:
                     modul.my_script.beta_my_script()
 
                 if system_lista == 20:
@@ -143,17 +143,17 @@ def menulista():
                 menu_list_def.back_text()
 
                 system_lista = int(input("" + lang.language.langs["main"][6]))
-                if system_lista == 98:
+                if system_lista == 0:
                     modul.SteamDB.GetGameServersStatus.game.CSGOServers_730()
-                if system_lista == 97:
+                if system_lista == 1:
                     modul.SteamDB.GetOwnedGames.steamDB.my_userid_info('self')
-                if system_lista == 96:
+                if system_lista == 2:
                     modul.SteamDB.GetOwnedGames.steamDB.userid_info('self')
-                if system_lista == 95:
+                if system_lista == 3:
                     modul.SteamDB.GetPlayerBans.steamDB.bann_user('self')
-                if system_lista == 94:
+                if system_lista == 4:
                     modul.SteamDB.GetPlayerSummaries.GetPlayerSummaries()
-                if system_lista == 93:
+                if system_lista == 5:
                     modul.SteamDB.GetPlayerSummaries.GetPlayerSummaries_player()
 
 

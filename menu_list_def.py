@@ -1,9 +1,6 @@
-import color_def_list
 import lang.language
-'''import lang.SteamDB_language'''
+#import lang.SteamDB_language
 import os
-import logo
-
 
 def clear():
     os.system("cls")
@@ -476,6 +473,13 @@ class SteamDB_lang:
 
     def GetGameServersStatus_list(self):
         lista = lang.language.langdb['GetGameServersStatus_list']
+        i = 0
+        for i in range(0, len(lista)):
+            print(lista[i])
+
+class verch:
+    def verch_lang(self):
+        lista = lang.language.langdb['verch_lang']
         i = 0
         for i in range(0, len(lista)):
             print(lista[i])

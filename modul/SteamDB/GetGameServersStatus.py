@@ -5,6 +5,7 @@ import webbrowser
 import requests
 from pywinauto import Application
 
+import beta.logo_class
 import beta_logo
 import lang
 import menu_list_def
@@ -15,7 +16,7 @@ class game:
     def CSGOServers_730():
         while True:
             menu_list_def.clear()
-            beta_logo.logos.beta_logo()
+            beta.logo_class.logo_all.SteramDB_logo_v2()
             menu_list_def.SteamDB_lang.GetGameServersStatus('self')
             menu_list_def.back_text()
             ROOT_DIR = os.path.abspath(os.curdir)
@@ -31,7 +32,7 @@ class game:
             if keyload == 1:
                 while True:
                     menu_list_def.clear()
-                    beta_logo.logos.beta_logo()
+                    beta.logo_class.logo_all.SteramDB_logo_v2()
                     menu_list_def.SteamDB_lang.GetGameServersStatus_list('self')
                     menu_list_def.back_text()
 
@@ -50,10 +51,15 @@ class game:
                         print(fg(255, 80, 230) + "IEconItems: " + fg(255, 180, 50) + h.get('IEconItems') + fg.rs)
                         print(fg(255, 80, 220) + "Leaderboards: " + fg(255, 180, 40) + h.get('Leaderboards') + fg.rs)
 
+                        menu_list_def.back_text()
+                        keyloadd = int(input("" + lang.language.langs["main"][6]))
+
+                        if keyloadd == 20:
+                            break
                     if keyloadd == 1:
                         while True:
                             menu_list_def.clear()
-                            beta_logo.logos.beta_logo()
+                            beta.logo_class.logo_all.SteramDB_logo_v2()
 
 
                             url = ("https://api.steampowered.com/ICSGOServers_730/GetGameServersStatus/v1/?key=" + keyin)
@@ -250,16 +256,54 @@ class game:
                                 break
 
                     if keyloadd == 2:
-                        url = ("1https://api.steampowered.com/ICSGOServers_730/GetGameServersStatus/v1/?key=" + keyin)
-                        x = requests.get(url)
-                        h = x.json()['result']['matchmaking']
-                        print(h)
+                        while True:
+                            menu_list_def.clear()
+                            beta.logo_class.logo_all.SteramDB_logo_v2()
+                            url = ("https://api.steampowered.com/ICSGOServers_730/GetGameServersStatus/v1/?key=" + keyin)
+                            x = requests.get(url)
+                            h = x.json()['result']
+                            dict_list_matchmaking = (h['matchmaking'])
+                            print(fg(255, 80, 250) +
+                                "Matchmaking: " + fg(255, 180, 70) + '\n'
+                                "      scheduler: " + fg(255, 180, 70) + dict_list_matchmaking.get('scheduler') + '\n'
+                                "      online_servers: " + fg(255, 180, 70) + str(dict_list_matchmaking.get('online_servers')) + '\n'
+                                "      online_players: " + fg(255, 180, 70) + str(dict_list_matchmaking.get('online_players')) + '\n'
+                                "      searching_players: " + fg(255, 180, 70) + str(dict_list_matchmaking.get('searching_players')) + '\n'
+                                "      search_seconds_avg: " + fg(255, 180, 70) + str(dict_list_matchmaking.get('search_seconds_avg')) + fg.rs)
+
+                            menu_list_def.back_text()
+                            keyloadd = int(input("" + lang.language.langs["main"][6]))
+
+                            if keyloadd == 20:
+                                break
 
                     if keyloadd == 3:
-                        url = ("https://api.steampowered.com/ICSGOServers_730/GetGameServersStatus/v1/?key=" + keyin)
-                        x = requests.get(url)
-                        h = x.json()['result']['perfectworld']
-                        print(h)
+                        while True:
+                            menu_list_def.clear()
+                            beta.logo_class.logo_all.SteramDB_logo_v2()
+                            url = ("https://api.steampowered.com/ICSGOServers_730/GetGameServersStatus/v1/?key=" + keyin)
+                            x = requests.get(url)
+                            h = x.json()['result']['perfectworld']
+                            dict_list_perfectworld = (h['logon'])
+                            dict_list_purchase = (h['purchase'])
+
+                            print(fg(255, 80, 250) +
+                                "Perfectworld: " + fg(255, 10, 70) + '\n' 
+                                                                  
+                                "   Logon: " + fg(255, 180, 70) + '\n'
+                                "      availability: " + fg(255, 180, 70) + dict_list_perfectworld.get('availability') + '\n'
+                                "      latency: " + fg(255, 180, 70) + dict_list_perfectworld.get('latency') + fg.rs)
+
+                            print(fg(255, 10, 70) +
+                                "   Purchase: " + fg(255, 180, 70) + '\n'
+                                "      availability: " + fg( 255, 180, 70) + dict_list_purchase.get('availability') + '\n'
+                                "      purchase: " + fg(255,180,70) + dict_list_purchase.get('latency') + fg.rs)
+
+                            menu_list_def.back_text()
+                            keyloadd = int(input("" + lang.language.langs["main"][6]))
+
+                            if keyloadd == 20:
+                                break
 
                     if keyloadd == 20:
                         break
