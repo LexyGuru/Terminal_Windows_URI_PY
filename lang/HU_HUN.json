@@ -21,7 +21,7 @@
 
   "menu_b": [
     "-------------STEAM-------------",
-    "[ 0]: SteamDB API Server",
+    "[ 0]: SteamDB API Szerver",
     "[ 1]: SteamDB MyGame Info",
     "[ 2]: SteamDB PlayerGame Info",
     "[ 3]: SteamDB MyBan Info",
