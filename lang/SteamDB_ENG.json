@@ -9,8 +9,8 @@
   ],
   "GetGameServersStatus_list": [
     "[ 0]: CS:GO Services",
-    "[ 1]: CS:GO datacenters",
-    "[ 2]: CS:GO matchmaking",
-    "[ 3]: CS:GO perfectworld"
+    "[ 1]: CS:GO Datacenters",
+    "[ 2]: CS:GO Matchmaking",
+    "[ 3]: CS:GO Perfectworld"
   ]
 }

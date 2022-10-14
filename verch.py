@@ -21,11 +21,11 @@ class verzion():
 
         if b > a:
 
-            print(fg(255,64,64) + lang.language.langs["verch_lang"][1] + b + fg.rs)
+            print(fg(255, 64, 64) + lang.language.langs["verch_lang"][1] + b + fg.rs)
 
 
         elif a == b:
-            print(fg(127,255,0) + lang.language.langs["verch_lang"][0] + a + fg.rs)
+            print(fg(127, 255, 0) + lang.language.langs["verch_lang"][0] + a + fg.rs)
 
 
     def ver_ch_beta(self):
