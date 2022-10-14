@@ -22,6 +22,9 @@ Windows 10 / 11 Fast link
 ## Documentation
 [![documentation](https://img.shields.io/badge/documentation-wiki-blue.svg)](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki)
 
+## Pictures
+[![pic](SVG_DIR/Untitled-1.svg)]()
+
 Please, see the [Wiki](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki) to get information about the product setup and usage.
 
 <span style="color: green">  </span>
