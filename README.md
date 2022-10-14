@@ -23,7 +23,8 @@ Windows 10 / 11 Fast link
 [![documentation](https://img.shields.io/badge/documentation-wiki-blue.svg)](https://github.com/LexyGuru/Terminal_Windows_URI_PY/wiki)
 
 ## Pictures
-[![pic](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/1.png)](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/1.png)
+
+[![pic](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/1.png )](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/1.png)
 [![pic](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/1_2.png)](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/1_2.png)
 [![pic](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/2.png)](https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/2.png)
 
