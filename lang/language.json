@@ -1,9 +1,16 @@
 {
+    "_comment": [" ENG, HUN "],
     "main_lang": [
         "eng"
     ],
 
+    "_comment": [" ENG, HUN "],
     "steam_lang": [
         "eng"
+    ],
+
+    "_comment": [" ENG, HUN, DE"],
+    "notepad_langs": [
+        "hun"
     ]
 }

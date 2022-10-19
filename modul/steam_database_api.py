@@ -6,7 +6,7 @@ import lang
 from pywinauto.application import Application
 
 class SteamDB:
-    def steamdb_generate(self):
+    '''def steamdb_generate(self):
         url = 'http://api.steampowered.com/ISteamApps/GetAppList/v2'
         x = requests.get(url)
         h = x.json()['applist']['apps']
@@ -15,7 +15,7 @@ class SteamDB:
             for item in h:
                 # write each item on a new line
                 fp.write("%s\n" % item)
-                print('Done' + str(item))
+                print('Done' + str(item))'''
 
     def steamdb_finder_a(self):
         # string to search in file

@@ -1,8 +1,7 @@
 {
- "steam_key": [
-  "6BCF3753F594D8B79DBDA55178F52E98"
- ],
- "steamid": [
-  "76561198132993053"
- ]
+ "_comment": ["DEV API KEY"],
+ "steam_key": ["6BCF3753F594D8B79DBDA55178F52E98"],
+
+ "_comment": ["SteamID64 (Dec)"],
+ "steamid": ["76561198132993053"]
 }

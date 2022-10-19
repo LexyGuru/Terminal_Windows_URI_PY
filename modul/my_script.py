@@ -38,16 +38,16 @@ def beta_my_script():
                 menu_list_def.exits_text()
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 
-                if system_lista == 0:
-                    steam_database_api.SteamDB.steamdb_generate('self')
+                '''if system_lista == 0:
+                    steam_database_api.SteamDB.steamdb_generate('self')'''
 
-                if system_lista == 1:
+                if system_lista == 0:
                     steam_database_api.SteamDB.steamdb_finder_a('self')
 
-                if system_lista == 2:
+                if system_lista == 1:
                     steam_database_api.SteamDB.steamdb_finder_b('self')
 
-                if system_lista == 3:
+                if system_lista == 2:
                     steam_database_api.SteamDB.steam_run_game('self')
 
                 if system_lista == 20:

@@ -587,15 +587,19 @@
   "beta_project_steamdb": [
     "{[BETA TESTED] {[BETA TESTED]} {[BETA TESTED]}",
     "",
-    "[ 0]: SteamDB Downloads (DOWNLOADS DATA)",
-    "[ 1]: SteamDB Finder (NO LOG FILE)",
-    "[ 2]: SteamDB Finder (notepad (eng, hun !!!!!))",
-    "[ 3]: Run Steam Game (PL.: (CS:GO Appid:730)"
+    "[ 0]: SteamDB Finder (NO LOG FILE)",
+    "[ 1]: SteamDB Finder (notepad (eng, hun !!!!!))",
+    "[ 2]: Run Steam Game (PL.: (CS:GO Appid:730)"
   ],
 
   "verch_lang":[
     "No updates: ",
     "New verzion: ",
     "Download on github! "
+  ],
+
+  "about": [
+    "Create by Apps: LexyGuru",
+    "Translet 'hungary': LET000"
   ]
 }
