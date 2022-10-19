@@ -159,35 +159,49 @@ class file_true_false_ch:
         speedtest.speedtest_start_save('self')
 
 
+    def ende(self):
+        file_true_false_ch.out_True('self')
+        created = os.path.getctime(file)
+        year, month, day, hour, minute, second = time.localtime(created)[:-3]
+
+        old_name = r"C:\temp\speedtest.txt"
+        new_name = r"C:\temp\speedtest_" + "%02d-%02d-%d-" % (day, month, year) + "%02d-%02d-%02d" % (
+            hour, minute, second) + ".txt"
+        print(
+            fg(105, 10, 220) + "D" +
+            fg(115, 15, 210) + "a" +
+            fg(125, 20, 200) + "t" +
+            fg(135, 25, 190) + "e " +
+            fg(145, 30, 180) + "c" +
+            fg(155, 35, 170) + "r" +
+            fg(165, 40, 160) + "e" +
+            fg(175, 45, 150) + "a" +
+            fg(185, 50, 140) + "t" +
+            fg(195, 55, 130) + "e" +
+            fg(205, 60, 120) + "d" +
+            fg(215, 65, 110) + ":" +
+
+            fg(105, 10, 220) + " %02d/%02d/%d " % (day, month, year) +
+            fg(255, 50, 0) + "%02d:%02d:%02d" % (hour, minute, second))
+        os.rename(old_name, new_name)
+
+
 # file ????
 file_exists = os.path.exists('c:\\temp\\speedtest.txt')
-if file_exists == True:
-    file_true_false_ch.out_True('self')
-    created = os.path.getctime(file)
-    year, month, day, hour, minute, second = time.localtime(created)[:-3]
-
-    old_name = r"C:\temp\speedtest.txt"
-    new_name = r"C:\temp\speedtest_" + "%02d-%02d-%d-" % (day, month, year) + "%02d-%02d-%02d" % (
-    hour, minute, second) + ".txt"
-    print(
-        fg(105, 10, 220) + "D" +
-        fg(115, 15, 210) + "a" +
-        fg(125, 20, 200) + "t" +
-        fg(135, 25, 190) + "e " +
-        fg(145, 30, 180) + "c" +
-        fg(155, 35, 170) + "r" +
-        fg(165, 40, 160) + "e" +
-        fg(175, 45, 150) + "a" +
-        fg(185, 50, 140) + "t" +
-        fg(195, 55, 130) + "e" +
-        fg(205, 60, 120) + "d" +
-        fg(215, 65, 110) + ":" +
-
-        fg(105, 10, 220) + " %02d/%02d/%d " % (day, month, year) +
-        fg(255, 50, 0) + "%02d:%02d:%02d" % (hour, minute, second))
-    os.rename(old_name, new_name)
 
 if file_exists == False:
     file_true_false_ch.out_False('self')
+    file_exists = os.path.exists('c:\\temp\\speedtest.txt')
+
+if file_exists == True:
+    file_true_false_ch.ende('self')
+
+
+
+
+
+
+
+
 
 
