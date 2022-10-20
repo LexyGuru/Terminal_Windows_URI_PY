@@ -155,9 +155,8 @@ class file_true_false_ch:
             fg(115, 10, 210) + "l" +
             fg(105, 10, 220) + "a" +
             fg.rs + "\n")
-        print("2-5 min")
+        print("1-3 min")
         speedtest.speedtest_start_save('self')
-
 
     def ende(self):
         file_true_false_ch.out_True('self')
@@ -167,7 +166,7 @@ class file_true_false_ch:
         old_name = r"C:\temp\speedtest.txt"
         new_name = r"C:\temp\speedtest_" + "%02d-%02d-%d-" % (day, month, year) + "%02d-%02d-%02d" % (
             hour, minute, second) + ".txt"
-        print(
+        print('\n' +
             fg(105, 10, 220) + "D" +
             fg(115, 15, 210) + "a" +
             fg(125, 20, 200) + "t" +
@@ -181,8 +180,17 @@ class file_true_false_ch:
             fg(205, 60, 120) + "d" +
             fg(215, 65, 110) + ":" +
 
-            fg(105, 10, 220) + " %02d/%02d/%d " % (day, month, year) +
-            fg(255, 50, 0) + "%02d:%02d:%02d" % (hour, minute, second))
+            fg(195, 22, 130) + " %02d"  % (day) +
+            fg(185, 50, 140) + "/" +
+            fg(175, 45, 150) + "%02d"  % (month) +
+            fg(165, 40, 160) + "/" +
+            fg(155, 35, 170) + "%d " % (year) +
+
+            fg(145, 30, 180) + "%02d" % (hour) +
+            fg(135, 25, 190) + ":" +
+            fg(125, 20, 200) + "%02d" % (minute) +
+            fg(115, 15, 210) + ":" +
+            fg(105, 10, 220) + "%02d" % (second))
         os.rename(old_name, new_name)
 
 
@@ -195,6 +203,10 @@ if file_exists == False:
 
 if file_exists == True:
     file_true_false_ch.ende('self')
+
+def file_dir(self):
+    file_dir = "C:\\temp"
+    webbrowser.open(file_dir)
 
 
 
