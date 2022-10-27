@@ -16,7 +16,8 @@
   "menu_a": [
     "[ 0]: WindowsURIpy List",
     "[ 1]: Beta Project",
-    "[ 2]: SteamDB API"
+    "[ 2]: SteamDB API",
+    "[ 3]: System Info Log"
   ],
 
   "menu_b": [

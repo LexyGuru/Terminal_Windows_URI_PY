@@ -52,6 +52,9 @@ def menulista():
         logo.logos.main_logo()
         verch.verzion.ver_ch('self')
         verch.verzion.ver_ch_beta('self')
+        from Apps.ScriptLogInfo import SysInfo
+        SysInfo.Sysinfomenu()
+
         example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
         print(example_ansi)
         menu_list_def.menu_A()
@@ -159,6 +162,74 @@ def menulista():
 
                 if system_lista == 20:
                     break
+        if system_a == 3:
+            while True:
+                menu_list_def.clear()
+                logo.logos.main_logo()
+                verch.verzion.ver_ch('self')
+                verch.verzion.ver_ch_beta('self')
+                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                print(example_ansi)
+                print("[ 0]: System info")
+                print("[ 1]: Process info")
+                print("[ 2]: Speedtest")
+                menu_list_def.back_text()
+                system_lista = int(input("" + lang.language.langs["main"][6]))
+
+                if system_lista == 0:
+                    while True:
+                        menu_list_def.clear()
+                        logo.logos.main_logo()
+                        verch.verzion.ver_ch('self')
+                        verch.verzion.ver_ch_beta('self')
+                        example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                        print(example_ansi)
+                        SysInfo.Sysinfo_all.Sysinfo_win('self')
+                        SysInfo.Sysinfo_all.Sysinfo_boot('self')
+                        SysInfo.Sysinfo_all.Sysinfo_CPU('self')
+                        SysInfo.Sysinfo_all.Sysinfo_ram('self')
+                        SysInfo.Sysinfo_all.Sysinfo_SWAP('self')
+                        SysInfo.Sysinfo_all.Sysinfo_Network('self')
+                        SysInfo.Sysinfo_all.Sysinfo_GPU('self')
+                        SysInfo.Sysinfo_all.Sysinfo_HDD('self')
+                        menu_list_def.back_text()
+                        system_lista = int(input("" + lang.language.langs["main"][6]))
+                        if system_lista == 20:
+                            break
+
+                if system_lista == 1:
+                    while True:
+                        menu_list_def.clear()
+                        logo.logos.main_logo()
+                        verch.verzion.ver_ch('self')
+                        verch.verzion.ver_ch_beta('self')
+                        example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                        print(example_ansi)
+                        from Apps.ScriptLogInfo.ProcessMonitor import process_list
+                        process_list()
+                        menu_list_def.back_text()
+                        system_lista = int(input("" + lang.language.langs["main"][6]))
+                        if system_lista == 20:
+                            break
+
+                if system_lista == 2:
+                    while True:
+                        menu_list_def.clear()
+                        logo.logos.main_logo()
+                        verch.verzion.ver_ch('self')
+                        verch.verzion.ver_ch_beta('self')
+                        example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                        print(example_ansi)
+                        from Apps.ScriptLogInfo.speedtest_v2 import speedtest_v2_run
+                        speedtest_v2_run()
+                        menu_list_def.back_text()
+                        system_lista = int(input("" + lang.language.langs["main"][6]))
+                        if system_lista == 20:
+                            break
+
+                if system_lista == 20:
+                    break
+
 
         if system_a == 20:
             exit()
