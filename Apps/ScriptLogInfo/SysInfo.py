@@ -27,34 +27,170 @@ def adjust_size(size):
 
 class Sysinfo_all:
     def Sysinfo_win(self):
-        print("-"*40, "Sys Info", "-"*40)
+        print(fg(250, 195, 60), "-"*40, fg(250, 105, 60), "Sys Info", fg(250, 195, 60), "-"*40, fg.rs + "\n")
         uname = platform.uname()
-        print(f"System: {uname.system}")
-        print(f"Node Name: {uname.node}")
-        print(f"Release: {uname.release}")
-        print(f"Version: {uname.version}")
-        print(f"Machine: {uname.machine}")
-        print(f"Processor: {uname.processor}")
+        print(
+            fg(250, 200, 0) + "S" +
+            fg(250, 190, 0) + "y" +
+            fg(250, 180, 0) + "s" +
+            fg(250, 170, 0) + "t" +
+            fg(250, 160, 0) + "e" +
+            fg(250, 150, 0) + "m" +
+            fg(250, 140, 0) + ": " +
+            fg(250, 105, 60) + f"{uname.system}" + fg.rs)
+        print(
+            fg(250, 200, 0) + "N" +
+            fg(250, 190, 0) + "o" +
+            fg(250, 180, 0) + "d" +
+            fg(250, 170, 0) + "e " +
+            fg(250, 160, 0) + "N" +
+            fg(250, 150, 0) + "a" +
+            fg(250, 140, 0) + "m" +
+            fg(250, 130, 0) + "e" +
+            fg(250, 120, 0) + ": " +
+            fg(250, 105, 60) + f"{uname.node}" + fg.rs)
+        print(
+            fg(250, 200, 0) + "R" +
+            fg(250, 190, 0) + "e" +
+            fg(250, 180, 0) + "l" +
+            fg(250, 170, 0) + "e" +
+            fg(250, 160, 0) + "a" +
+            fg(250, 150, 0) + "s" +
+            fg(250, 140, 0) + "e" +
+            fg(250, 130, 0) + ": " +
+            fg(250, 105, 60) + f"{uname.release}" + fg.rs)
+        print(
+            fg(250, 200, 0) + "V" +
+            fg(250, 190, 0) + "e" +
+            fg(250, 180, 0) + "r" +
+            fg(250, 170, 0) + "s" +
+            fg(250, 160, 0) + "i" +
+            fg(250, 150, 0) + "o" +
+            fg(250, 140, 0) + "n" +
+            fg(250, 130, 0) + ": " +
+            fg(250, 105, 60) + f"{uname.version}" + fg.rs)
+        print(
+            fg(250, 200, 0) + "M" +
+            fg(250, 190, 0) + "a" +
+            fg(250, 180, 0) + "c" +
+            fg(250, 170, 0) + "h" +
+            fg(250, 160, 0) + "i" +
+            fg(250, 150, 0) + "n" +
+            fg(250, 140, 0) + "e" +
+            fg(250, 130, 0) + ": " +
+            fg(250, 105, 60) + f"{uname.machine}" + fg.rs)
+        print(
+            fg(250, 200, 0) + "P" +
+            fg(250, 190, 0) + "r" +
+            fg(250, 180, 0) + "o" +
+            fg(250, 170, 0) + "c" +
+            fg(250, 160, 0) + "e" +
+            fg(250, 150, 0) + "s" +
+            fg(250, 140, 0) + "s" +
+            fg(250, 130, 0) + "o" +
+            fg(250, 120, 0) + "r" +
+            fg(250, 110, 0) + ": " +
+            fg(250, 105, 60) + f"{uname.processor}" + fg.rs + "\n")
 
     def Sysinfo_boot(self):
-        print("-"*40, "Boot Time", "-"*40)
+        print(fg(250, 195, 60), "-" * 40, fg(250, 105, 60), "Boot Time", fg(250, 195, 60), "-" * 40, fg.rs + "\n")
         boot_time_timestamp = psutil.boot_time()
         bt = datetime.fromtimestamp(boot_time_timestamp)
-        print(f"Boot Time: {bt.day}.{bt.month}.{bt.year} {bt.hour}:{bt.minute}:{bt.second}")
+        print(
+            fg(250, 200, 0) + "B" +
+            fg(250, 190, 0) + "o" +
+            fg(250, 180, 0) + "o" +
+            fg(250, 170, 0) + "t " +
+            fg(250, 160, 0) + "T" +
+            fg(250, 150, 0) + "i" +
+            fg(250, 140, 0) + "m" +
+            fg(250, 130, 0) + "e" +
+            fg(250, 120, 0) + ": " +
+            fg(250, 105, 60) + f"{bt.day}.{bt.month}.{bt.year} {bt.hour}:{bt.minute}:{bt.second}" + fg.rs + "\n")
 
     def Sysinfo_CPU(self):
-        print("-"*40, "CPU Info", "-"*40)
-        print("Actual Cores:", psutil.cpu_count(logical=False))
-        print("Logical Cores:", psutil.cpu_count(logical=True))
-        print(f"Max Frequency: {psutil.cpu_freq().max:.1f}Mhz")
-        print(f"Current Frequency: {psutil.cpu_freq().current:.1f}Mhz")
-        print(f"CPU Usage: {psutil.cpu_percent()}%")
-        print("CPU Usage/Core:")
+        print(fg(250, 195, 60), "-" * 40, fg(250, 105, 60), "CPU Info", fg(250, 195, 60), "-" * 40, fg.rs + "\n")
+        print(
+            fg(250, 200, 0) + "A" +
+            fg(250, 190, 0) + "c" +
+            fg(250, 180, 0) + "t" +
+            fg(250, 170, 0) + "u" +
+            fg(250, 160, 0) + "a" +
+            fg(250, 150, 0) + "l " +
+            fg(250, 140, 0) + "C" +
+            fg(250, 130, 0) + "o" +
+            fg(250, 120, 0) + "r" +
+            fg(250, 110, 0) + "e" +
+            fg(250, 100, 0) + "s" +
+            fg(250, 90, 0) + ":",
+            fg(250, 105, 60) + str(psutil.cpu_count(logical=False)))
+        print(
+            fg(250, 200, 0) + "L" +
+            fg(250, 190, 0) + "o" +
+            fg(250, 180, 0) + "g" +
+            fg(250, 170, 0) + "i" +
+            fg(250, 160, 0) + "c" +
+            fg(250, 150, 0) + "a" +
+            fg(250, 140, 0) + "l " +
+            fg(250, 130, 0) + "C" +
+            fg(250, 120, 0) + "o" +
+            fg(250, 110, 0) + "r" +
+            fg(250, 100, 0) + "e" +
+            fg(250, 90, 0) + "s" +
+            fg(250, 80, 0) + ":",
+            fg(250, 105, 60) + str(psutil.cpu_count(logical=True)))
+        print(
+            fg(250, 200, 0) + "M" +
+            fg(250, 190, 0) + "a" +
+            fg(250, 180, 0) + "x " +
+            fg(250, 170, 0) + "F" +
+            fg(250, 160, 0) + "r" +
+            fg(250, 150, 0) + "e" +
+            fg(250, 140, 0) + "q" +
+            fg(250, 130, 0) + "u" +
+            fg(250, 120, 0) + "e" +
+            fg(250, 110, 0) + "n" +
+            fg(250, 100, 0) + "c" +
+            fg(250, 90, 0) + "y" +
+            fg(250, 80, 0) + ": " +
+            fg(250, 105, 60) + f"{psutil.cpu_freq().max:.1f}Mhz")
+        print(
+            fg(250, 200, 0) + "C" +
+            fg(250, 190, 0) + "u" +
+            fg(250, 180, 0) + "r" +
+            fg(250, 170, 0) + "r" +
+            fg(250, 160, 0) + "e" +
+            fg(250, 150, 0) + "n" +
+            fg(250, 140, 0) + "t " +
+            fg(250, 130, 0) + "F" +
+            fg(250, 120, 0) + "r" +
+            fg(250, 110, 0) + "e" +
+            fg(250, 100, 0) + "q" +
+            fg(250, 90, 0) + "u" +
+            fg(250, 80, 0) + "e" +
+            fg(250, 70, 0) + "n" +
+            fg(250, 60, 0) + "c" +
+            fg(250, 50, 0) + "y" +
+            fg(250, 40, 0) + ": " +
+            fg(250, 105, 60) + f"{psutil.cpu_freq().current:.1f}Mhz")
+        print(
+            fg(250, 200, 0) + "C" +
+            fg(250, 190, 0) + "P" +
+            fg(250, 180, 0) + "U " +
+            fg(250, 170, 0) + "U" +
+            fg(250, 160, 0) + "s" +
+            fg(250, 150, 0) + "a" +
+            fg(250, 140, 0) + "g" +
+            fg(250, 130, 0) + "e" +
+            fg(250, 120, 0) + ": " +
+            fg(250, 105, 60) + f"{psutil.cpu_percent()}%" + fg.rs + "\n")
+
+        '''print("CPU Usage/Core:")
         for i, perc in enumerate(psutil.cpu_percent(percpu=True, interval=1)):
-            print(f"Core {i}: {perc}%")
+            print(f"Core {i}: {perc}%")'''
 
     def Sysinfo_ram(self):
-        print("-"*40, "RAM Info", "-"*40)
+        print(fg(250, 195, 60), "-" * 40, fg(250, 105, 60), "RAM Info", fg(250, 195, 60), "-" * 40, fg.rs + "\n")
         virtual_mem = psutil.virtual_memory()
         print(f"Total: {adjust_size(virtual_mem.total)}")
         print(f"Available: {adjust_size(virtual_mem.available)}")
@@ -120,11 +256,17 @@ class Sysinfo_all:
 
 
 
+
 '''
+---------  KESSZ  --------
 Sysinfo_all.Sysinfo_win('self')
 Sysinfo_all.Sysinfo_boot('self')
 Sysinfo_all.Sysinfo_CPU('self')
 Sysinfo_all.Sysinfo_ram('self')
+'''
+
+
+'''
 Sysinfo_all.Sysinfo_SWAP('self')
 Sysinfo_all.Sysinfo_Network('self')
 Sysinfo_all.Sysinfo_GPU('self')
