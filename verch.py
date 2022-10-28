@@ -1,6 +1,6 @@
 import requests
 import os
-import json
+#import json
 from sty import fg, ef, rs
 import lang.language
 
