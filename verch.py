@@ -39,7 +39,7 @@ class verzion():
         x = requests.get(url)
         beta_ver = x.json()['next_beta'][0]
 
-        url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
+        url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/verzion.json'
         x = requests.get(url)
         current = x.json()['current_beta'][0]
 
