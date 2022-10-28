@@ -41,7 +41,7 @@ class verzion():
 
         url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
         x = requests.get(url)
-        current = x.json()['current'][0]
+        current = x.json()['current_beta'][0]
 
         a = current
         b = beta_ver
