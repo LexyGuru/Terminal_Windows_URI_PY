@@ -13,6 +13,30 @@
     "Added Instance ID:"
   ],
 
+  "menu_a": [
+    "[ 0]: WindowsURIpy List",
+    "[ 1]: Beta Project",
+    "[ 2]: SteamDB API",
+    "[ 3]: System Info Log"
+  ],
+
+  "menu_b": [
+    "-------------STEAM-------------",
+    "[ 0]: SteamDB API Server",
+    "[ 1]: SteamDB MyGame Info",
+    "[ 2]: SteamDB PlayerGame Info",
+    "[ 3]: SteamDB MyBan Info",
+    "[ 4]: SteamDB My Summaries",
+    "[ 5]: SteamDB Player Summaries",
+    "-------------------------------"
+  ],
+
+  "menu_c": [
+    "----------------------------",
+    "[0]: BETA PROJECT",
+    "----------------------------"
+  ],
+
   "menu_list":[
     "[ 0]: System",
     "[ 1]: Devices",
@@ -31,11 +55,7 @@
     "[14]: Mixed reality",
     "[15]: Surface Hub",
     "[16]: Shell Commands",
-    "[17]: GoodMod",
-    "----------------------------",
-    "[98]: SteamDB API Server",
-    "[99]: BETA PROJECT",
-    "----------------------------"
+    "[17]: GoodMod"
   ],
 
   "menu_system":[
@@ -568,9 +588,19 @@
   "beta_project_steamdb": [
     "{[BETA TESTED] {[BETA TESTED]} {[BETA TESTED]}",
     "",
-    "[ 0]: SteamDB Downloads (DOWNLOADS DATA)",
-    "[ 1]: SteamDB Finder (NO LOG FILE)",
-    "[ 2]: SteamDB Finder (notepad (eng, hun !!!!!))",
-    "[ 3]: Run Steam Game (PL.: (CS:GO Appid:730)"
+    "[ 0]: SteamDB Finder (NO LOG FILE)",
+    "[ 1]: SteamDB Finder (notepad (eng, hun !!!!!))",
+    "[ 2]: Run Steam Game (PL.: (CS:GO Appid:730)"
+  ],
+
+  "verch_lang":[
+    "No updates: ",
+    "New verzion: ",
+    "Download on github! "
+  ],
+
+  "about": [
+    "Create by Apps: LexyGuru",
+    "Translet 'hungary': LET000"
   ]
 }

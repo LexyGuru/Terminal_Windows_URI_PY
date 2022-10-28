@@ -1,12 +1,9 @@
-# starter
-# language selected
-import os
-import beta_logo
-
-import logo
 import json
 
-beta_logo.logos.lang_logo()
+import beta.logo_class
+
+beta.logo_class.logo_all.main_logo()
+print("")
 
 def language():
 

@@ -1,18 +1,10 @@
 import requests
 import os
 import json
+from sty import fg, ef, rs
+import lang.language
 
 ROOT_DIR = os.path.abspath(os.curdir)
-
-class ANSI():
-    def background(code):
-        return "\33[{code}m".format(code=code)
-
-    def style_text(code):
-        return "\33[{code}m".format(code=code)
-
-    def color_text(code):
-        return "\33[{code}m".format(code=code)
 
 class verzion():
     def ver_ch(self):
@@ -28,12 +20,13 @@ class verzion():
         b = new_ver
 
         if b > a:
-            example_ansi = ANSI.background(0) + ANSI.color_text(39) + ANSI.style_text(31) + "New ver: " + b
-            print(example_ansi)
+
+            print(fg(255, 64, 64) + lang.language.langs["verch_lang"][1] + b + fg.rs)
+
 
         elif a == b:
-            example_ansi = ANSI.background(0) + ANSI.color_text(49) + ANSI.style_text(92) + "Not Update: " + a
-            print(example_ansi)
+            print(fg(127, 255, 0) + lang.language.langs["verch_lang"][0] + a + fg.rs)
+
 
     def ver_ch_beta(self):
         url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/verzion.json'
@@ -48,13 +41,7 @@ class verzion():
         b = beta_ver
 
         if b > a:
-            example_ansi = ANSI.background(0) + ANSI.color_text(39) + ANSI.style_text(31) + "New beta ver: " + b + " github"
-            print(example_ansi)
+            print(fg(255, 64, 64) + lang.language.langs["verch_lang"][1] + b + " " + lang.language.langs["verch_lang"][2] + fg.rs)
 
         elif a == b:
-            example_ansi = ANSI.background(0) + ANSI.color_text(49) + ANSI.style_text(92) + "Not Update: " + a
-            print(example_ansi)
-
-
-'''print(verzion.ver_ch('self'))
-print(verzion.ver_ch_beta('self'))'''
+            print(fg(127, 255, 0) + lang.language.langs["verch_lang"][0] + a + fg.rs)

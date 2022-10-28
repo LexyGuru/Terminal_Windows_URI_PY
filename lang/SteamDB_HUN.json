@@ -1,0 +1,16 @@
+{
+  "SteamDB_Summaries": [
+    "[ 0]: SteamUserFinder Web",
+    "[ 1]: SteamUser Info"
+  ],
+  "GetGameServersStatus": [
+    "[ 0]: Steam Web API key",
+    "[ 1]: CS:GO Server Status"
+  ],
+  "GetGameServersStatus_list": [
+    "[ 0]: CS:GO Services",
+    "[ 1]: CS:GO Datacenters",
+    "[ 2]: CS:GO Matchmaking",
+    "[ 3]: CS:GO Perfectworld"
+  ]
+}
