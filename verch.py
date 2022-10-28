@@ -15,12 +15,12 @@ class verzion():
 
         url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
         x = requests.get(url)
-        new_ver = x.json()['current'][0]
+        new_ver = x.json()['next_current'][0]
 
         #url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/version_current.json'
         url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
         x = requests.get(url)
-        current = x.json()['next_current'][0]
+        current = x.json()['current'][0]
 
         a = current
         b = new_ver
@@ -37,11 +37,11 @@ class verzion():
     def ver_ch_beta(self):
         url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/verzion.json'
         x = requests.get(url)
-        beta_ver = x.json()['current'][0]
+        beta_ver = x.json()['next_current'][0]
 
-        with open(ROOT_DIR + '\\SVG_DIR\\version_current.json', "r") as file:
-            jsonData = json.load(file)
-            current = jsonData['current'][0]
+        url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
+        x = requests.get(url)
+        current = x.json()['current'][0]
 
         a = current
         b = beta_ver
