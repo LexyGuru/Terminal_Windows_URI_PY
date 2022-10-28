@@ -6,9 +6,10 @@ import lang.language
 
 ROOT_DIR = os.path.abspath(os.curdir)
 
+
 class verzion():
     def ver_ch(self):
-        with open(ROOT_DIR + '\\lang\\version.json', "r") as file:
+        with open(ROOT_DIR + '\\version.json', "r") as file:
             jsonData = json.load(file)
             current = jsonData['current'][0]
 
@@ -33,7 +34,7 @@ class verzion():
         x = requests.get(url)
         beta_ver = x.json()['current'][0]
 
-        with open(ROOT_DIR + '\\lang\\version.json', "r") as file:
+        with open(ROOT_DIR + '\\version.json', "r") as file:
             jsonData = json.load(file)
             current = jsonData['current'][0]
 
