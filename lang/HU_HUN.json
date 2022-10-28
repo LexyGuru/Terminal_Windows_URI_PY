@@ -20,6 +20,12 @@
     "[ 3]: System Info Log"
   ],
 
+  "systeminfo": [
+    "[ 0]: System info",
+    "[ 1]: Process info",
+    "[ 2]: Speedtest"
+  ],
+
   "menu_b": [
     "-------------STEAM-------------",
     "[ 0]: SteamDB API Szerver",
@@ -596,7 +602,8 @@
   "verch_lang":[
     "No updates: ",
     "New verzion: ",
-    "Download on github! "
+    "Download on github! ",
+    "No updates BETA: "
   ],
 
   "about": [

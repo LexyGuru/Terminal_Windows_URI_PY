@@ -170,9 +170,9 @@ def menulista():
                 verch.verzion.ver_ch_beta('self')
                 example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
                 print(example_ansi)
-                print("[ 0]: System info")
-                print("[ 1]: Process info")
-                print("[ 2]: Speedtest")
+                print(lang.language.langs["systeminfo"][0])
+                print(lang.language.langs["systeminfo"][1])
+                print(lang.language.langs["systeminfo"][2])
                 menu_list_def.back_text()
                 system_lista = int(input("" + lang.language.langs["main"][6]))
 

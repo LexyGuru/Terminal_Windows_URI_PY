@@ -39,9 +39,9 @@ class verzion():
         x = requests.get(url)
         beta_ver = x.json()['next_beta'][0]
 
-        url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
+        url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/beta/SVG_DIR/verzion.json'
         x = requests.get(url)
-        current = x.json()['current'][0]
+        current = x.json()['current_beta'][0]
 
         a = current
         b = beta_ver
@@ -50,4 +50,4 @@ class verzion():
             print(fg(255, 64, 64) + lang.language.langs["verch_lang"][1] + b + " " + lang.language.langs["verch_lang"][2] + fg.rs)
 
         elif a == b:
-            print(fg(127, 255, 0) + lang.language.langs["verch_lang"][0] + a + fg.rs)
+            print(fg(127, 255, 0) + lang.language.langs["verch_lang"][3] + a + fg.rs)
