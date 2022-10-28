@@ -9,9 +9,13 @@ ROOT_DIR = os.path.abspath(os.curdir)
 
 class verzion():
     def ver_ch(self):
-        with open(ROOT_DIR + '\\version.json', "r") as file:
+        '''with open(ROOT_DIR + '\\version_current.json', "r") as file:
             jsonData = json.load(file)
-            current = jsonData['current'][0]
+            current = jsonData['current'][0]'''
+
+        url = 'https://github.com/LexyGuru/Terminal_Windows_URI_PY/tree/beta/SVG_DIR/verzion_current.json'
+        x = requests.get(url)
+        current = x.json()['current'][0]
 
         url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
         x = requests.get(url)
@@ -34,9 +38,13 @@ class verzion():
         x = requests.get(url)
         beta_ver = x.json()['current'][0]
 
-        with open(ROOT_DIR + '\\version.json', "r") as file:
+        url = 'https://github.com/LexyGuru/Terminal_Windows_URI_PY/tree/beta/SVG_DIR/verzion_current.json'
+        x = requests.get(url)
+        current = x.json()['current'][0]
+
+        '''with open(ROOT_DIR + '\\version_current.json', "r") as file:
             jsonData = json.load(file)
-            current = jsonData['current'][0]
+            current = jsonData['current'][0]'''
 
         a = current
         b = beta_ver
