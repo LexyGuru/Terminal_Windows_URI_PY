@@ -6,21 +6,15 @@ import lang.language
 
 ROOT_DIR = os.path.abspath(os.curdir)
 
-
-class verzion():
+class verzion:
     def ver_ch(self):
-        '''with open(ROOT_DIR + '\\SVG_DIR\\version_current.json', "r") as file:
-            jsonData = json.load(file)
-            current = jsonData['current'][0]'''
-
         url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
         x = requests.get(url)
         new_ver = x.json()['next_current'][0]
 
-        #url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/version_current.json'
-        url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
-        x = requests.get(url)
-        current = x.json()['current'][0]
+        with open(ROOT_DIR + '\\ver.json', "r") as file:
+            jsonData = json.load(file)
+            current = jsonData['current'][0]
 
         a = current
         b = new_ver
@@ -51,3 +45,19 @@ class verzion():
 
         elif a == b:
             print(fg(127, 255, 0) + lang.language.langs["verch_lang"][3] + a + fg.rs)
+
+
+file_exists = os.path.exists('ver.json')
+
+if file_exists == True:
+    pass
+
+if file_exists == False:
+    url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
+    x = requests.get(url)
+    current = x.json()
+
+    json_object = json.dumps(current)
+
+    with open("ver.json", "w") as outfile:
+        outfile.write(json_object)
