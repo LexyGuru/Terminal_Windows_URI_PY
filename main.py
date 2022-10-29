@@ -184,16 +184,141 @@ def menulista():
                         verch.verzion.ver_ch_beta('self')
                         example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
                         print(example_ansi)
-                        SysInfo.Sysinfo_all.Sysinfo_win('self')
-                        SysInfo.Sysinfo_all.Sysinfo_boot('self')
-                        SysInfo.Sysinfo_all.Sysinfo_CPU('self')
-                        SysInfo.Sysinfo_all.Sysinfo_ram('self')
-                        SysInfo.Sysinfo_all.Sysinfo_SWAP('self')
-                        SysInfo.Sysinfo_all.Sysinfo_Network('self')
-                        SysInfo.Sysinfo_all.Sysinfo_GPU('self')
-                        SysInfo.Sysinfo_all.Sysinfo_HDD('self')
+                        print("[ 0]: System WINDOWS")
+                        print("[ 1]: System BOOT")
+                        print("[ 2]: System CPU")
+                        print("[ 3]: System RAM")
+                        print("[ 4]: System SWAP")
+                        print("[ 5]: System NETWORK")
+                        print("[ 6]: System GPU")
+                        print("[ 7]: System HDD")
                         menu_list_def.back_text()
                         system_lista = int(input("" + lang.language.langs["main"][6]))
+
+                        if system_lista == 0:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_win('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+
+                        if system_lista == 1:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_boot('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+                        if system_lista == 2:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_CPU('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+                        if system_lista == 3:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_ram('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+                        if system_lista == 4:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_SWAP('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+                        if system_lista == 5:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_Network('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+                        if system_lista == 6:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_GPU('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+                        if system_lista == 7:
+                            while True:
+                                menu_list_def.clear()
+                                logo.logos.main_logo()
+                                verch.verzion.ver_ch('self')
+                                verch.verzion.ver_ch_beta('self')
+                                example_ansi = ANSI.background(2) + ANSI.color_text(49) + ANSI.style_text(39) + ""
+                                print(example_ansi)
+
+                                SysInfo.Sysinfo_all.Sysinfo_HDD('self')
+                                menu_list_def.back_text()
+                                system_lista = int(input("" + lang.language.langs["main"][6]))
+                                if system_lista == 20:
+                                    break
+
+
+
+
                         if system_lista == 20:
                             break
 
