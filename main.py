@@ -232,6 +232,7 @@ def menulista():
 
 
         if system_a == 20:
+            os.remove("ver.json")
             exit()
 
 menulista()

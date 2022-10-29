@@ -5,6 +5,22 @@ from sty import fg, ef, rs
 import lang.language
 
 ROOT_DIR = os.path.abspath(os.curdir)
+file_exists = os.path.exists('ver.json')
+
+if file_exists == True:
+    pass
+
+if file_exists == False:
+    url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
+    x = requests.get(url)
+    current = x.json()
+
+    json_object = json.dumps(current)
+
+    with open("ver.json", "w") as outfile:
+        outfile.write(json_object)
+
+
 
 class verzion:
     def ver_ch(self):
@@ -46,18 +62,3 @@ class verzion:
         elif a == b:
             print(fg(127, 255, 0) + lang.language.langs["verch_lang"][3] + a + fg.rs)
 
-
-file_exists = os.path.exists('ver.json')
-
-if file_exists == True:
-    pass
-
-if file_exists == False:
-    url = 'https://raw.githubusercontent.com/LexyGuru/Terminal_Windows_URI_PY/main/SVG_DIR/verzion.json'
-    x = requests.get(url)
-    current = x.json()
-
-    json_object = json.dumps(current)
-
-    with open("ver.json", "w") as outfile:
-        outfile.write(json_object)
