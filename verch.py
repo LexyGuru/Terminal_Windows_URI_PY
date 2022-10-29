@@ -50,8 +50,6 @@ class verzion:
 file_exists = os.path.exists('ver.json')
 
 if file_exists == True:
-    '''verzion.ver_ch('self')
-    verzion.ver_ch_beta('self')'''
     pass
 
 if file_exists == False:
